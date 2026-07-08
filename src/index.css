@@ -1,0 +1,77 @@
+:root {
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  --amarelo:#F9D746;
+  --azul:#4F7FE7;
+  --azul-escuro:#142C49;
+  --creme:#F3E3C6;
+  --ouro: #D4AF37;
+  --prata: #C0C0C0;
+  --bronze: #CD7F32;
+
+  font: 18px/145% var(--sans);
+  font-family: var(--mono);
+  color: white;
+  letter-spacing: 0.18px;
+
+  
+  
+  background: var(--azul-escuro);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+
+}
+
+button {
+  font-family: var(--sans);
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--azul);
+  color: white;
+  cursor: pointer;
+}
+
+.Sugestao {
+  margin-top: 20px;
+  padding: 10px;
+  color: var(--amarelo);
+  font-size: 40px;
+  font-family: var(--mono);
+}
+
+  .link-button {
+  display: inline-block;      /* Faz com que o link se comporte como um botão */
+  width: 200px;          /* Define a largura igual para todos */
+  text-align: center;    /* Centraliza o texto dentro do link */
+  padding: 10px 0;
+  font-family: var(--sans);
+  font-size: 16px;
+  text-decoration: none;  
+  font-weight: bold;   
+  
+  
+  margin: 10px;
+  border: solid 1px white;
+  border-radius: 4px;
+  background-color: var(--azul);
+  color: white;
+  cursor: pointer;
+  
+  transition: color 0.2s;  /* Adiciona uma transição suave */
+}
+
+
+/* Altera o estilo quando o usuário passa o mouse por cima */
+.link-personalizado:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
