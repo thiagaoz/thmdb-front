@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Filmes from './pages/Filmes';
 import Seriados from './pages/Seriados';
-import StandUp from './pages/StandUp';
 import Assistindo from './pages/Assistindo';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/filmes" element={<Filmes />} />
         <Route path="/seriados" element={<Seriados />} />
-        <Route path="/standup" element={<StandUp />} />
         <Route path="/assistindo" element={<Assistindo />} />
       </Routes>
     </BrowserRouter>

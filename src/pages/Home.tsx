@@ -7,12 +7,13 @@ import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi';
 
 function Home() {
   const [atracao, setAtracao] = React.useState<Atracao | null>(null);
-  const topAtracoes = idsData.filter(atracao => atracao.rating_th! >= 8) as Atracao[];
+  const topAtracoes = idsData.filter(atracao => atracao.rating_th! >= 8) ;
 
   React.useEffect(() => {
     const carregaSugestao = async () => {
       
       if (topAtracoes.length === 0) return;
+
       const sugestao : Atracao = topAtracoes[Math.floor(Math.random() * topAtracoes.length)];
       const sugestaoOmdb = await buscaAtracoesOmdbApi([sugestao]).then(data => data[0]);  
 
@@ -24,8 +25,8 @@ function Home() {
 
   return (
     <>
-      <h1>Thiago's Movie Database</h1>
-      <p>Sejam bem-vindos a minha lista de filmes, séries, animes e shows de stand-up.</p>
+      <h1 className='nome neon'>Thiago's Movie Database</h1>
+      <p>Sejam bem-vindos a minha lista de filmes, séries e mais.</p>
 
       <Link to="/" className='link-button'>Home</Link>
       <Link to="/filmes" className='link-button'>Filmes</Link>
@@ -34,12 +35,12 @@ function Home() {
       <Link to="/assistindo" className='link-button'>Assistindo</Link>
 
       <div>
-        <h2  className="Sugestao">Sugestão</h2>
+        <h2  className="sugestao neon">Sugestão</h2>
         <div>
-          { atracao && (
+          {atracao && (
             <div>
               <p>{atracao.type}</p>
-              <h3>{atracao.title} ({atracao.year})  ⭐{atracao.rating_th}</h3>
+              <h3>{atracao.title} ({atracao.year})</h3>
               <img src={atracao.poster} alt={atracao.title} />
             </div>
           )}
