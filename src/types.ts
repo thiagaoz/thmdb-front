@@ -1,11 +1,14 @@
 export type Atracao = {
-  id: string;
+  id: string; // id da atração no imdb
   title?: string;
-  description?: string;
-  poster?: string;
-  releaseDate?: string;
+  plot?: string;
+  poster?: string; // URL do poster da atração
   genre?: string[];
-  seasons?: number;
-  rating_th?: number;
+  rating_th?: number; // nota que eu dei para atração
+  type?: 'Filme' | 'Série' | 'Stand-up' | 'Outro'; // tipo da atração
+  year?: string; 
+
+  // apenas para seriados
+  seasons?: number; // quantidade de temporadas lançadas
 }
 

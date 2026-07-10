@@ -1,18 +1,25 @@
 import '../index.css'
-import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi'
 import React from 'react';
 import type { Atracao } from '../types';
 import { Link } from 'react-router-dom';
+import idsData from '../data/imdb_ids.json';
+import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi';
 
 function Home() {
   const [atracao, setAtracao] = React.useState<Atracao | null>(null);
+  const topAtracoes = idsData.filter(atracao => atracao.rating_th! >= 8) as Atracao[];
 
   React.useEffect(() => {
-    buscaAtracoesOmdbApi(['tt0111161']).then((atracoes) => {
-      if (atracoes.length > 0) {
-        setAtracao(atracoes[0]);
-      }
-    });
+    const carregaSugestao = async () => {
+      
+      if (topAtracoes.length === 0) return;
+      const sugestao : Atracao = topAtracoes[Math.floor(Math.random() * topAtracoes.length)];
+      const sugestaoOmdb = await buscaAtracoesOmdbApi([sugestao]).then(data => data[0]);  
+
+      setAtracao(sugestaoOmdb);
+    };
+
+    carregaSugestao();
   }, []);
 
   return (
@@ -26,12 +33,13 @@ function Home() {
       <Link to="/standup" className='link-button'>Stand-up</Link>
       <Link to="/assistindo" className='link-button'>Assistindo</Link>
 
-      <div className="Sugestao">
-        <h2>Sugestão</h2>
+      <div>
+        <h2  className="Sugestao">Sugestão</h2>
         <div>
           { atracao && (
             <div>
-              <h3>{atracao.title} ({atracao.releaseDate})</h3>
+              <p>{atracao.type}</p>
+              <h3>{atracao.title} ({atracao.year})  ⭐{atracao.rating_th}</h3>
               <img src={atracao.poster} alt={atracao.title} />
             </div>
           )}
