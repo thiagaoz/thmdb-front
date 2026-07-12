@@ -27,6 +27,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  display: flex;
+  flex-direction: column;   /* Empilha os elementos um embaixo do outro */
+  justify-content: center;  /* Centraliza no eixo vertical */
+  align-items: center;      /* Centraliza no eixo horizontal */
+  
+  min-height: 100vh;        /* Garante que o container ocupe a altura total da tela */
+  width: 100%;
+  text-align: center;
+
   @media (max-width: 1024px) {
     font-size: 16px;
   }
@@ -84,4 +93,63 @@
     2px 2px 0 var(--sombra),
     0 0 8px var(--glow),
     0 0 12px var(--neon-suave);
+}
+
+.conteudo-sugestao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  /* Mantém o espaço do filme reservado desde o início */
+  min-height: 580px; 
+  width: 100%;
+}
+
+.neon-border {
+    border: 0.5px solid white; /* Borda sólida opcional */
+    box-shadow:
+      1px 1px 0 white,
+      0 0 1px var(--glow),
+      0 0 2px var(--neon-suave);
+    border-radius: 2px; /* Opcional: arredonda cantos */
+    animation: pulse 0.05s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        box-shadow:
+            0 0 5px var(--glow),
+            0 0 10px var(--glow);
+    }
+    to {
+        box-shadow:
+            0 0 2px var(--glow),
+            0 0 5px var(--glow),
+            0 0 10px var(--neon-suave);
+    }
+}
+
+.sugestao-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin: 16px auto; /* Margem superior e inferior, e centraliza horizontalmente */
+  width: fit-content; /* Largura ajustada ao conteúdo */
+}
+
+.poster {
+  height: auto;
+  width: 200px;
+
+}
+
+.poster-vazio {
+    width: 200px;          /* Tamanho desejado */
+    height: 300px;        /* Altura desejada */
+    background: transparent; /* Fundo transparente */
+    
+}
+
+.plot {
+  width: 800px;
 }
