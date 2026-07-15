@@ -42,6 +42,28 @@
 
 }
 
+.header-container {
+  position: fixed; /* Fixa no topo da viewport */
+  top: 0;
+  left: 0;
+  right: 0; /* Ocupa toda a largura da tela */
+  z-index: 100;
+  background-color: var(--azul-escuro);
+  padding-bottom: 20px;
+}
+
+.titulo-principal {
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaçamento entre os botões */
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+}
 
 .nome {
   font-size: 50px;
@@ -132,24 +154,31 @@
 
 .sugestao-container {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  margin: 16px auto; /* Margem superior e inferior, e centraliza horizontalmente */
-  width: fit-content; /* Largura ajustada ao conteúdo */
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  max-width: 800px;
+  margin: 70px auto 0; /* Centraliza horizontalmente */
 }
 
-.poster {
-  height: auto;
+.poster-container {
+  flex-shrink: 0;
+}
+
+.poster, .poster-vazio {
   width: 200px;
-
+  height: auto;
+  display: block;
 }
 
-.poster-vazio {
-    width: 200px;          /* Tamanho desejado */
-    height: 300px;        /* Altura desejada */
-    background: transparent; /* Fundo transparente */
-    
+.atracao-info-container {
+  width: calc(100% - 216px); /* 200px + 16px */
+  text-align: left;
+  margin-left: 50px;
 }
 
 .plot {
-  width: 800px;
+  margin: 0;
+  line-height: 1.4;
+  font-size: 16px;
 }
