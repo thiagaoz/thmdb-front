@@ -158,7 +158,9 @@
   gap: 16px;
   width: 100%;
   max-width: 800px;
-  margin: 70px auto 0; /* Centraliza horizontalmente */
+  min-height: 550px;
+  margin-top: 300px;
+  margin-left: 100px;
 }
 
 .poster-container {
@@ -169,6 +171,8 @@
   width: 200px;
   height: auto;
   display: block;
+  margin-top: 20px;
+
 }
 
 .atracao-info-container {
@@ -178,7 +182,16 @@
 }
 
 .plot {
-  margin: 0;
+  margin-top: 30px;
   line-height: 1.4;
+}
+
+.font-pqna{
   font-size: 16px;
+}
+
+.mini-logo{
+  height: 40px;
+  width: auto;
+  
 }

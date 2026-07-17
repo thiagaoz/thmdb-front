@@ -23,3 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 tarefas.txt
+src/data/imdb_ratings.csv
+

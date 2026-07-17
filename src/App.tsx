@@ -5,8 +5,11 @@ import Home from './pages/Home';
 import Filmes from './pages/Filmes';
 import Seriados from './pages/Seriados';
 import Assistindo from './pages/Assistindo';
+import Zero from '../private/Zero';
 
 function App() {
+  
+  const local = import.meta.env.DEV;
 
   return (
     <BrowserRouter>
@@ -15,6 +18,9 @@ function App() {
         <Route path="/filmes" element={<Filmes />} />
         <Route path="/seriados" element={<Seriados />} />
         <Route path="/assistindo" element={<Assistindo />} />
+        {local &&
+          <Route path="/zero" element={<Zero />} />
+        }
       </Routes>
     </BrowserRouter>
   )
