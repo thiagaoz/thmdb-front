@@ -110,6 +110,11 @@
     0 0 15px #00B4FF;
 }
 
+.rating-btn{
+    width: 300px;
+    margin-top: 20px;
+}
+
 .neon {
     text-shadow:
     2px 2px 0 var(--sombra),
