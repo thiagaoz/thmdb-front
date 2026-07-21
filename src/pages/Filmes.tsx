@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import RatingNavBar from '../components/RatingNavBar';
-import isData from '../data/imdb_ids.json';
+import isData from '../data/imdb.json';
 import React from 'react';
 import type { Atracao } from '../types';
 import AtracoesGrid from '../components/AtracoesGrid';

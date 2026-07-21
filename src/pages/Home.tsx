@@ -1,17 +1,15 @@
 import '../index.css'
 import React from 'react';
 import type { Atracao } from '../types';
-import { Link } from 'react-router-dom';
-import idsData from '../data/imdb_ids.json';
+import idsData from '../data/imdb.json';
 import imdbLogo from '../assets/IMDB_Logo.png'
 import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi';
-import posterVazio from "../assets/postervazio.png";
 import Navbar from '../components/Navbar';
 
 function Home() {
   const [atracao, setAtracao] = React.useState<Atracao | null>(null);
   const [carregando, setCarregando] = React.useState<boolean>(true);
-  const topAtracoes = idsData.filter(atracao => atracao.rating_th! >= 9) ;
+  const topAtracoes = idsData.filter((atracao) => atracao.rating_th! >= 9) ;
 
   React.useEffect(() => {
     const carregaSugestao = async () => {
@@ -21,7 +19,7 @@ function Home() {
       }
 
       // 1. Sorteia e busca na API imediatamente
-      const sugestao: Atracao = topAtracoes[Math.floor(Math.random() * topAtracoes.length)];
+      const sugestao:Atracao = topAtracoes[Math.floor(Math.random() * topAtracoes.length)];
       const sugestaoOmdb = await buscaAtracoesOmdbApi([sugestao]).then(data => data[0]);  
       
       setAtracao(sugestaoOmdb);
