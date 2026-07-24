@@ -1,0 +1,67 @@
+[
+    {
+        "id": "tt2861424",
+        "rating_th": 0,
+        "title": "Rick and Morty",
+        "plot": "The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures.",
+        "genre": "Animation, Adventure, Comedy",
+        "directors": "N/A",
+        "url": "https://www.imdb.com/title/tt2861424/",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+        "year": "2013–",
+        "seasons": 12,
+        "currentSeason": 9
+    },
+    {
+        "id": "tt14379784",
+        "rating_th": 0,
+        "title": "The Devil's Hour",
+        "plot": "A woman wakes up every night at exactly 3.33AM, in the middle of the so-called devil's hour between 3AM and 4AM.",
+        "genre": "Drama, Mystery, Thriller",
+        "directors": "N/A",
+        "url": "https://www.imdb.com/title/tt14379784/",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzA3OTA4ZjAtZWE1Zi00N2RjLWFkMDYtYWI1MzYzMDI5OWY5XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2022–",
+        "seasons": 2,
+        "currentSeason": 2
+    },
+    {
+        "id": "tt6741278",
+        "rating_th": 0,
+        "title": "Invincible",
+        "plot": "When 17-year-old Mark Grayson inherits superpowers, he becomes the superhero Invincible.",
+        "genre": "Animation, Action, Adventure",
+        "directors": "N/A",
+        "url": "https://www.imdb.com/title/tt6741278/",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGM5MmM2ZDAtMzBjNS00NjMxLWE4ZTMtNzFjMWMxYzU2ZThjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+        "year": "2021–",
+        "seasons": 4,
+        "currentSeason": 4
+    },
+    {
+        "id": "tt30460310",
+        "rating_th": 0,
+        "title": "Spider-Noir",
+        "plot": "Ben Reilly, a seasoned, down-on-his-luck private investigator in 1930s New York, is forced to grapple with his past life, following a deeply personal tragedy, as the city's one and only superhero.",
+        "genre": "Action, Adventure, Crime",
+        "directors": "N/A",
+        "url": "https://www.imdb.com/title/tt30460310/",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjU3NjEwNTItMzc1Mi00Y2QyLTljNDItOTQ4YjU4NjZjN2EyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+        "year": "2026–",
+        "seasons": 1,
+        "currentSeason": 1
+    },
+    {
+        "id": "tt40197357",
+        "rating_th": 0,
+        "title": "Scrubs",
+        "plot": "JD and Turk scrub in together after a long break. Medicine and interns have evolved, but their friendship remains strong. New and familiar faces at Sacred Heart bring laughs, emotion, and unexpected moments.",
+        "genre": "Comedy, Drama",
+        "directors": "N/A",
+        "url": "https://www.imdb.com/title/tt40197357/",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDUwODJiYjktZjE0Yy00ZjViLWJiZWEtNThlNjI5MDg5MWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2026–",
+        "seasons": 1,
+        "currentSeason": 1
+    }
+]

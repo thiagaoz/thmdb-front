@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
         <div className='navbar page-menu'>
             <Link to="/" className='link-button'>Home</Link>
             <Link to="/filmes" className='link-button'>Filmes</Link>
-            <Link to="/seriados" className='link-button'>Séries</Link>
+            <Link to="/seriados" className='link-button'>Seriados</Link>
             <Link to="/assistindo" className='link-button'>Assistindo</Link>
             {local &&
                 <Link to="/zero" className='link-button'>ZeRØ</Link>

@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../src/components/Navbar';
 
+
+
 function Zero() {
   const [data, setData] = React.useState<string>("");
 
@@ -18,19 +20,23 @@ function Zero() {
     }
   };
 
-  const handleImdbToAtracao = async () => {
-    try {
-      const response = await fetch('http://localhost:8000/imdb_to_atracao');
-      if (!response.ok) {
-        throw new Error(`Erro na requisição: ${response.status}`);
-      }
-      // Use .text() instead of .json() because the backend returns a raw string
-      const result = await response.text();
-      setData(result);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+const handleImdbToAtracao = async () => {
+  console.log("Botão clicado");
+
+  try {
+    const response = await fetch("http://localhost:8000/imdb_to_atracao");
+
+    console.log(response);
+
+    const text = await response.text();
+
+    console.log(text);
+
+    setData(text);
+  } catch (error) {
+    console.error(error);
+  }
+};
 
   return (
     <>

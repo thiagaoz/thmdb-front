@@ -1,34 +1,18 @@
-import { useEffect } from 'react';
+import { useState } from 'react';
 import Navbar from '../components/Navbar';
-import RatingNavBar from '../components/RatingNavBar';
-import isData from '../data/imdb.json';
-import React from 'react';
+import atracoesData from '../data/atracao.json';
 import type { Atracao } from '../types';
 import AtracoesGrid from '../components/AtracoesGrid';
-import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi';
 
 function Filmes() {
+  const [atracoesSelecionadas, setAtracoesSelecionadas] = useState<Atracao[] | null>(null);
 
-  const [atracoesSelecionadas, setAtracoesSelecionadas] = React.useState<Atracao[] | null>(null) ;
-
-  const atracoesExcelentes = isData.filter(atracao => atracao.rating_th > 8);
-  const atracoesBons = isData.filter(atracao => atracao.rating_th >= 6 && atracao.rating_th <= 8);
-  const atracoesMaus = isData.filter(atracao => atracao.rating_th >= 3 && atracao.rating_th < 6);
-  const atracoesFeios = isData.filter(atracao => atracao.rating_th < 3);
-
-
-  const handleSetAtracao = async (atracoes:Atracao[]) => {
-    const resultado = await buscaAtracoesOmdbApi(atracoes);
-    setAtracoesSelecionadas(resultado);
-  }
-  /*
-  useEffect ( () => {
-    const carregaFilmes = async () => {
-
-      const atracoesExcelentes: Atracao[] = 
-    }
-  })
-    */
+const atracoes = atracoesData.filter( atracao => atracao.type == "Movie");
+const atracoesGOATs = atracoes.filter(atracao => atracao.rating_th > 9);
+const atracoesExcelentes = atracoes.filter(atracao => atracao.rating_th > 7 && atracao.rating_th <= 9);
+const atracoesBons = atracoes.filter(atracao => atracao.rating_th >= 6 && atracao.rating_th <= 7);
+const atracoesMaus = atracoes.filter(atracao => atracao.rating_th >= 3 && atracao.rating_th < 6);
+const atracoesFeios = atracoes.filter(atracao => atracao.rating_th < 3);
 
   return (
     <>
@@ -40,19 +24,20 @@ function Filmes() {
         <Navbar />
 
         <div className='navbar rating-menu'>
-            <button className='link-button rating-btn' onClick={()=> handleSetAtracao(atracoesExcelentes)}>Excelentes</button>
-            <button className='link-button rating-btn' onClick={()=> handleSetAtracao(atracoesBons)}>Bons</button>
-            <button className='link-button rating-btn' onClick={()=> handleSetAtracao(atracoesMaus)}>Maus</button>
-            <button className='link-button rating-btn' onClick={()=> handleSetAtracao(atracoesFeios)}>E os Feios...</button>
+          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesGOATs)}>GOATs</button>
+          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesExcelentes)}>Excelentes</button>
+          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesBons)}>Bons</button>
+          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesMaus)}>Maus</button>
+          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesFeios)}>E os Feios...</button>
         </div>
-        { atracoesSelecionadas &&
-          <AtracoesGrid atracoes={atracoesSelecionadas} />
-        }
-        
       </div>
+
+      {/* A grid deve ficar fora da header-container para que a página possa rolar */}
+      <main className="main-content">
+        {atracoesSelecionadas && <AtracoesGrid atracoes={atracoesSelecionadas} />}
+      </main>
     </>
-  )
+  );
 }
 
-export default Filmes
- 
+export default Filmes;
