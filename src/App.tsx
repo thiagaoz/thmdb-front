@@ -6,6 +6,7 @@ import Filmes from './pages/Filmes';
 import Seriados from './pages/Seriados';
 import Assistindo from './pages/Assistindo';
 import Zero from '../private/Zero';
+import Busca from './pages/Busca';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path="/filmes" element={<Filmes />} />
         <Route path="/seriados" element={<Seriados />} />
         <Route path="/assistindo" element={<Assistindo />} />
+        <Route path="/busca" element={<Busca />} />
         {local &&
           <Route path="/zero" element={<Zero />} />
         }

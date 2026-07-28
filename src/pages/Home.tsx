@@ -5,6 +5,7 @@ import idsData from '../data/imdb.json';
 import imdbLogo from '../assets/IMDB_Logo.png';
 import atracoes from '../data/atracao.json';
 import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi';
+import noPoster from '../assets/no_poster.png'
 import Navbar from '../components/Navbar';
 
 function Home() {
@@ -64,7 +65,15 @@ function Home() {
         atracao && (
           <>
             <div className="poster-container">
-              <img className="neon-border poster" src={atracao.poster} alt={atracao.title} />
+              <img className="neon-border poster" 
+                src={atracao.poster || noPoster}
+                alt={atracao.title || 'Cartaz de '+ atracao.title}
+                onError={(e) => {
+                  // Impede loop infinito caso a própria imagem 'noPoster' falhe
+                  e.currentTarget.onerror = null; 
+                  e.currentTarget.src = noPoster;
+                }}
+              />
             </div>
             <div className="atracao-info-container">
               <h3 className="neon">{atracao.title}</h3>

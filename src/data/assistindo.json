@@ -49,7 +49,7 @@
         "poster": "https://m.media-amazon.com/images/M/MV5BYjU3NjEwNTItMzc1Mi00Y2QyLTljNDItOTQ4YjU4NjZjN2EyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
         "year": "2026–",
         "seasons": 1,
-        "currentSeason": 1
+        "currentSeason": 0
     },
     {
         "id": "tt40197357",
@@ -63,5 +63,18 @@
         "year": "2026–",
         "seasons": 1,
         "currentSeason": 1
+    },
+    {
+        "id": "tt4508902",
+        "rating_th": 0,
+        "title": "One Punch Man",
+        "plot": "The story of Saitama, a hero that does it just for fun &amp; can defeat his enemies with a single punch.",
+        "genre": "Animation, Action, Comedy",
+        "directors": "N/A",
+        "url": "https://www.imdb.com/title/tt4508902/",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2015–",
+        "seasons": 3,
+        "currentSeason": 2
     }
 ]

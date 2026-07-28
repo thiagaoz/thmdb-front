@@ -1,5 +1,897 @@
 [
     {
+        "id": "tt8679236",
+        "rating_th": 6.0,
+        "title": "Who Is America?",
+        "url": "https://www.imdb.com/title/tt8679236",
+        "type": "TV Series",
+        "genre": "Comedy",
+        "directors": "",
+        "plot": "Sacha Baron Cohen offers his take on America's patriotism.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTg3ZDRkZWItYzA1Yy00MjdlLTk3MGItMTJkZjM5Y2VjZmM4XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2018",
+        "seasons": 1
+    },
+    {
+        "id": "tt0094138",
+        "rating_th": 9.0,
+        "title": "Three O'Clock High",
+        "url": "https://www.imdb.com/title/tt0094138",
+        "type": "Movie",
+        "genre": "Comedy",
+        "directors": "Phil Joanou",
+        "plot": "Mild-mannered Jerry Mitchell gets into hot water with quiet bad boy Buddy Revell, who challenges Jerry to a fight on the grounds of their high school after the school day's end.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWExOTFhYjktYWU2OC00MjRmLWJmZGQtZjgyMTE3ZTljNzZmXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1987"
+    },
+    {
+        "id": "tt2268458",
+        "rating_th": 8.0,
+        "title": "These Final Hours",
+        "url": "https://www.imdb.com/title/tt2268458",
+        "type": "Movie",
+        "genre": "Drama, Thriller, Sci-Fi",
+        "directors": "Zak Hilditch",
+        "plot": "A self-obsessed young man makes his way to the party-to-end-all-parties on the last day on Earth, but ends up saving the life of a little girl searching for her father. Their relationship ultimately leads him on the path to redemp...",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWU0YWMxZTMtNmI1Zi00ZmMxLWJkZjItMTNmZTQxMjFjM2RkXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2013"
+    },
+    {
+        "id": "tt0238380",
+        "rating_th": 8.0,
+        "title": "Equilibrium",
+        "url": "https://www.imdb.com/title/tt0238380",
+        "type": "Movie",
+        "genre": "Drama, Sci-Fi, Thriller, Action",
+        "directors": "Kurt Wimmer",
+        "plot": "In an oppressive future where all forms of feeling are illegal, a man in charge of enforcing the law rises to overthrow the system and state.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTkzMzA1OTI3N15BMl5BanBnXkFtZTYwMzUyMDg5._V1_SX300.jpg",
+        "year": "2002"
+    },
+    {
+        "id": "tt0277371",
+        "rating_th": 8.0,
+        "title": "Not Another Teen Movie",
+        "url": "https://www.imdb.com/title/tt0277371",
+        "type": "Movie",
+        "genre": "Romance, Comedy",
+        "directors": "Joel Gallen",
+        "plot": "A sendup of all the teen movies that have accumulated in the past two decades.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjllYzVjNjItYjQ2Ni00OGU4LTlkYjItMDYxOTBlM2YzNDA5XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2001"
+    },
+    {
+        "id": "tt0387808",
+        "rating_th": 8.0,
+        "title": "Idiocracy",
+        "url": "https://www.imdb.com/title/tt0387808",
+        "type": "Movie",
+        "genre": "Adventure, Comedy, Sci-Fi, Thriller",
+        "directors": "Mike Judge",
+        "plot": "Corporal Joe Bauers, a decidedly average American, is selected for a top-secret hibernation program but is forgotten and left to awaken to a future so incredibly moronic that he's easily the most intelligent person alive.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmNhN2NiOGUtOGM0Yy00ZjA3LTljNjAtNGZjZDZlNzdlZDcxXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2006"
+    },
+    {
+        "id": "tt5580266",
+        "rating_th": 7.0,
+        "title": "The Hate U Give",
+        "url": "https://www.imdb.com/title/tt5580266",
+        "type": "Movie",
+        "genre": "Drama, Crime",
+        "directors": "George Tillman Jr.",
+        "plot": "Starr witnesses the fatal shooting of her childhood best friend Khalil at the hands of a police officer. Now, facing pressure from all sides of the community, Starr must find her voice and stand up for what's right.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWZlYjczMjctNTFhNC00OGUyLWFhNTgtY2RlZjE3NGI0NDJkXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2018"
+    },
+    {
+        "id": "tt0130827",
+        "rating_th": 9.0,
+        "title": "Run Lola Run",
+        "url": "https://www.imdb.com/title/tt0130827",
+        "type": "Movie",
+        "genre": "Crime, Thriller, Action",
+        "directors": "Tom Tykwer",
+        "plot": "After a botched money delivery, Lola has 20 minutes to come up with 100,000 Deutschmarks.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzA0NDdiNDgtNjI4Ny00OTc0LTg3NGMtZDBlNmI1ZGUxYTg2XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1998"
+    },
+    {
+        "id": "tt0451279",
+        "rating_th": 6.0,
+        "title": "Wonder Woman",
+        "url": "https://www.imdb.com/title/tt0451279",
+        "type": "Movie",
+        "genre": "Action, Adventure, Fantasy, Sci-Fi, War",
+        "directors": "Patty Jenkins",
+        "plot": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjEzYmZkNjktODBmYi00NzNkLWIzMjItMjhkMWZiZTZlN2MwXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2017"
+    },
+    {
+        "id": "tt0800080",
+        "rating_th": 9.0,
+        "title": "The Incredible Hulk",
+        "url": "https://www.imdb.com/title/tt0800080",
+        "type": "Movie",
+        "genre": "Action, Sci-Fi",
+        "directors": "Louis Leterrier",
+        "plot": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2008"
+    },
+    {
+        "id": "tt0884328",
+        "rating_th": 9.0,
+        "title": "The Mist",
+        "url": "https://www.imdb.com/title/tt0884328",
+        "type": "Movie",
+        "genre": "Horror, Sci-Fi, Thriller",
+        "directors": "Frank Darabont",
+        "plot": "After a massive thunderstorm, an eerie, unwavering fog descends upon a Maine community. Locals seek refuge in a grocery store from the monstrous creatures now roaming the countryside killing everyone they encounter.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjQyNDY1Ml5BMl5BanBnXkFtZTcwMTk1MDU1MQ@@._V1_SX300.jpg",
+        "year": "2007"
+    },
+    {
+        "id": "tt0325710",
+        "rating_th": 7.0,
+        "title": "The Last Samurai",
+        "url": "https://www.imdb.com/title/tt0325710",
+        "type": "Movie",
+        "genre": "Drama, Action",
+        "directors": "Edward Zwick",
+        "plot": "In 19th century Japan, Nathan Algren, a US army captain, is hired by the Japanese emperor to train his army in the modern warfare techniques. Captain Algren finds himself trapped in a struggle between two eras and two worlds.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg",
+        "year": "2003"
+    },
+    {
+        "id": "tt5180504",
+        "rating_th": 6.0,
+        "title": "The Witcher",
+        "url": "https://www.imdb.com/title/tt5180504",
+        "type": "TV Series",
+        "genre": "Adventure, Fantasy, Mystery, Action, Drama",
+        "directors": "",
+        "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2019–",
+        "seasons": 4
+    },
+    {
+        "id": "tt0993846",
+        "rating_th": 7.0,
+        "title": "The Wolf of Wall Street",
+        "url": "https://www.imdb.com/title/tt0993846",
+        "type": "Movie",
+        "genre": "Crime, Drama, Biography, Comedy",
+        "directors": "Martin Scorsese",
+        "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2013"
+    },
+    {
+        "id": "tt0765429",
+        "rating_th": 8.0,
+        "title": "American Gangster",
+        "url": "https://www.imdb.com/title/tt0765429",
+        "type": "Movie",
+        "genre": "Drama, Crime, Biography",
+        "directors": "Ridley Scott",
+        "plot": "An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGExM2MwNjUtNThkNi00ZjBmLWJhZDgtN2ZmOWJiZWEwNGMxXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2007"
+    },
+    {
+        "id": "tt0482571",
+        "rating_th": 8.0,
+        "title": "The Prestige",
+        "url": "https://www.imdb.com/title/tt0482571",
+        "type": "Movie",
+        "genre": "Drama, Thriller, Mystery, Sci-Fi",
+        "directors": "Christopher Nolan",
+        "plot": "Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but, with terrible consequences.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM3MzQ5MjQ5OF5BMl5BanBnXkFtZTcwMTQ3NzMzMw@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+        "year": "2006"
+    },
+    {
+        "id": "tt0816692",
+        "rating_th": 8.0,
+        "title": "Interstellar",
+        "url": "https://www.imdb.com/title/tt0816692",
+        "type": "Movie",
+        "genre": "Sci-Fi, Adventure, Drama",
+        "directors": "Christopher Nolan",
+        "plot": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2014"
+    },
+    {
+        "id": "tt1213574",
+        "rating_th": 8.0,
+        "title": "Chris Rock: Kill the Messenger - London, New York, Johannesburg",
+        "url": "https://www.imdb.com/title/tt1213574",
+        "type": "TV Special",
+        "genre": "Documentary, Comedy",
+        "directors": "Marty Callner",
+        "plot": "Chris Rock's 2008 comedy tour visits London, New York and Johannesburg. Various parts of this tour are edited together to create his fifth HBO stand-up special.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWY4NDMzMjMtMzRhMi00YjZhLThiNmEtOTcxZDA2NjEwMmM0XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2008"
+    },
+    {
+        "id": "tt1825683",
+        "rating_th": 9.0,
+        "title": "Black Panther",
+        "url": "https://www.imdb.com/title/tt1825683",
+        "type": "Movie",
+        "genre": "Action, Adventure, Sci-Fi",
+        "directors": "Ryan Coogler",
+        "plot": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2018"
+    },
+    {
+        "id": "tt1675434",
+        "rating_th": 9.0,
+        "title": "The Intouchables",
+        "url": "https://www.imdb.com/title/tt1675434",
+        "type": "Movie",
+        "genre": "Comedy, Drama",
+        "directors": "Olivier Nakache,Éric Toledano",
+        "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2011"
+    },
+    {
+        "id": "tt1439629",
+        "rating_th": 9.0,
+        "title": "Community",
+        "url": "https://www.imdb.com/title/tt1439629",
+        "type": "TV Series",
+        "genre": "Comedy",
+        "directors": "",
+        "plot": "A suspended lawyer is forced to enroll in a community college with an eccentric staff and student body.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2009–2015",
+        "seasons": 6
+    },
+    {
+        "id": "tt2861424",
+        "rating_th": 8.0,
+        "title": "Rick and Morty",
+        "url": "https://www.imdb.com/title/tt2861424",
+        "type": "TV Series",
+        "genre": "Animation, Adventure, Comedy, Sci-Fi",
+        "directors": "",
+        "plot": "The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+        "year": "2013–",
+        "seasons": 12
+    },
+    {
+        "id": "tt0388944",
+        "rating_th": 5.0,
+        "title": "Final Fantasy XII",
+        "url": "https://www.imdb.com/title/tt0388944",
+        "type": "Video Game",
+        "genre": "Action, Adventure, Sci-Fi, Fantasy",
+        "directors": "Hiroshi Minagawa,Hiroyuki Itô",
+        "plot": "Street thief Vaan becomes embroiled in a quest to save the occupied kingdom in which he resides, Dalmasca, from a war that seems imminent.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM5MjYyNzQ3NF5BMl5BanBnXkFtZTcwMjM1OTE5Ng@@._V1_SX300.jpg",
+        "year": "2006"
+    },
+    {
+        "id": "tt1353038",
+        "rating_th": 6.0,
+        "title": "Street Fighter IV",
+        "url": "https://www.imdb.com/title/tt1353038",
+        "type": "Video Game",
+        "genre": "Action, Sci-Fi, Fantasy",
+        "directors": "Taliesin Jaffe,Takashi Tsukamoto,Tomio Yamauchi,Ryôsuke Naya",
+        "plot": "Fighting game Street Fighter IV introduces a new system called Focus Attacks, as well as Ultra Moves.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTE4OWYwZjItMDBjOS00YTE5LThkZmEtNmM3NTY0Y2RlOWYxXkEyXkFqcGdeQXVyNjc1ODU3OTE@._V1_SX300.jpg",
+        "year": "2008"
+    },
+    {
+        "id": "tt3103432",
+        "rating_th": 8.0,
+        "title": "Street Fighter V",
+        "url": "https://www.imdb.com/title/tt3103432",
+        "type": "Video Game",
+        "genre": "Action, Fantasy, Sci-Fi, Thriller",
+        "directors": "Jonathan Klein,Toshio Ohashi,Teruaki Shiraishi",
+        "plot": "Ryu fights numerous enemies in this arcade style fighting game.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGJlNDUwMDktYWFhMy00NjVhLTk5YTMtOWEwMmIwMGU1ZTM0XkEyXkFqcGdeQXVyMTA1OTEwNjE@._V1_SX300.jpg",
+        "year": "2016"
+    },
+    {
+        "id": "tt21043376",
+        "rating_th": 5.0,
+        "title": "Street Fighter 6",
+        "url": "https://www.imdb.com/title/tt21043376",
+        "type": "Video Game",
+        "genre": "Action, Fantasy, Sci-Fi, Crime, Thriller",
+        "directors": "Takayuki Nakayama,Keith Arem",
+        "plot": "In the Street Fighter 6 plot, players embark on a journey through the World Tour mode, starting at Buckler Security and facing challenges to pursue true strength.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY4OTMyNDEtM2RlZi00MWI1LWE2ZDQtMDIwMDAxMDgyNjk2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+        "year": "2023"
+    },
+    {
+        "id": "tt0208155",
+        "rating_th": 10.0,
+        "title": "Final Fantasy VII",
+        "url": "https://www.imdb.com/title/tt0208155",
+        "type": "Video Game",
+        "genre": "Adventure, Fantasy, Action, Drama, Sci-Fi",
+        "directors": "Yoshinori Kitase,Yasushi Matsumura,Masato Yagi",
+        "plot": "A former soldier from an evil company joins a mercenary clan to fight the company he once served.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGMxZDliYTktZTRmYy00MDc5LTk1YjMtMGY4NTM4ZDYzYmY2XkEyXkFqcGdeQXVyNzUzNTQ2MjQ@._V1_SX300.jpg",
+        "year": "1997"
+    },
+    {
+        "id": "tt0284110",
+        "rating_th": 6.0,
+        "title": "Final Fantasy X",
+        "url": "https://www.imdb.com/title/tt0284110",
+        "type": "Video Game",
+        "genre": "Adventure, Sci-Fi, Romance, Fantasy",
+        "directors": "Yoshinori Kitase",
+        "plot": "A celebrated young athlete is drawn from his futuristic hometown and convenient lifestyle to a harsh and techno-phobic land by a mysterious force only known as Sin.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTJhM2ZkZDAtNDA2Zi00OTJiLTgyOWEtZTExNWVlZWZkNzVkXkEyXkFqcGdeQXVyMTA3NjAwMDc4._V1_SX300.jpg",
+        "year": "2001"
+    },
+    {
+        "id": "tt0377587",
+        "rating_th": 10.0,
+        "title": "Capcom vs. SNK 2: Mark of the Millennium 2001",
+        "url": "https://www.imdb.com/title/tt0377587",
+        "type": "Video Game",
+        "genre": "Action",
+        "directors": "Hideaki Itsuno",
+        "plot": "Capcom vs. SNK 2 combines characters and gameplay elements from various Capcom and SNK fighting games, mainly the Street Fighter and The King of Fighters series.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2E2ODg5YzktZGFkZi00ZjQ1LTk0M2UtZTNmMzExZjQxOTE1XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+        "year": "2001"
+    },
+    {
+        "id": "tt0944835",
+        "rating_th": 5.0,
+        "title": "Salt",
+        "url": "https://www.imdb.com/title/tt0944835",
+        "type": "Movie",
+        "genre": "Thriller, Action",
+        "directors": "Phillip Noyce",
+        "plot": "A CIA agent goes on the run after a defector accuses her of being a Russian spy.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjIyODA2NDg4NV5BMl5BanBnXkFtZTcwMjg4NDAwMw@@._V1_SX300.jpg",
+        "year": "2010"
+    },
+    {
+        "id": "tt4230076",
+        "rating_th": 5.0,
+        "title": "The Defenders",
+        "url": "https://www.imdb.com/title/tt4230076",
+        "type": "TV Mini Series",
+        "genre": "Action, Adventure, Crime, Sci-Fi, Fantasy",
+        "directors": "",
+        "plot": "Set a few months after the events of the second season of Daredevil, and a month after the events of Iron Fist, the vigilantes Daredevil, Jessica Jones, Luke Cage, and Iron Fist team up in New York City to fight a common enemy: Th...",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTUwMjA5NTg4MF5BMl5BanBnXkFtZTgwODUyODkwMzI@._V1_SX300.jpg",
+        "year": "2017",
+        "seasons": 1
+    },
+    {
+        "id": "tt0133751",
+        "rating_th": 7.0,
+        "title": "The Faculty",
+        "url": "https://www.imdb.com/title/tt0133751",
+        "type": "Movie",
+        "genre": "Mystery, Sci-Fi, Horror",
+        "directors": "Robert Rodriguez",
+        "plot": "When Casey Connor, Herrington High School's newspaper photographer, witnesses the murder of a nurse and sees her alive again, he decides to investigate the bizarre happenings.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWQ5Njk0MzUtZTliZC00ODgzLTlmZTEtZGY0NDgyMTM0NGJmXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1998"
+    },
+    {
+        "id": "tt2531336",
+        "rating_th": 5.0,
+        "title": "Lupin",
+        "url": "https://www.imdb.com/title/tt2531336",
+        "type": "TV Series",
+        "genre": "Crime, Drama, Mystery, Action, Thriller",
+        "directors": "",
+        "plot": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDJhODQ3ZDEtN2JmMS00Yjk5LTk1ZTUtMzI3YTU0NTNjMjAyXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2021–",
+        "seasons": 4
+    },
+    {
+        "id": "tt1477834",
+        "rating_th": 5.0,
+        "title": "Aquaman",
+        "url": "https://www.imdb.com/title/tt1477834",
+        "type": "Movie",
+        "genre": "Action, Adventure, Sci-Fi, Fantasy",
+        "directors": "James Wan",
+        "plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2018"
+    },
+    {
+        "id": "tt0093870",
+        "rating_th": 7.0,
+        "title": "RoboCop",
+        "url": "https://www.imdb.com/title/tt0093870",
+        "type": "Movie",
+        "genre": "Action, Crime, Thriller, Sci-Fi",
+        "directors": "Paul Verhoeven",
+        "plot": "In a violent future in Old Detroit, murdered police officer Alex Murphy is resurrected as RoboCop, a powerful cyborg law enforcer. As he fights crime, he begins to recover memories of his past and seeks revenge on the gang who kil...",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWM1YzRhODktZDE1MC00NzBlLTk0NGMtOGNhZDQyMmJiZGFiXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1987"
+    },
+    {
+        "id": "tt0113568",
+        "rating_th": 7.0,
+        "title": "Ghost in the Shell",
+        "url": "https://www.imdb.com/title/tt0113568",
+        "type": "Movie",
+        "genre": "Animation, Thriller, Mystery, Crime, Drama, Sci-Fi, Action",
+        "directors": "Mamoru Oshii",
+        "plot": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzljMjA3MTQtMjM1OS00OGJjLWJiYzctZDRiMTk1NWI5YzQ5XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1995"
+    },
+    {
+        "id": "tt5463162",
+        "rating_th": 5.0,
+        "title": "Deadpool 2",
+        "url": "https://www.imdb.com/title/tt5463162",
+        "type": "Movie",
+        "genre": "Action, Adventure, Comedy, Sci-Fi",
+        "directors": "David Leitch",
+        "plot": "Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with abilities from the brutal, time-traveling cyborg Cable.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGY3N2ZhYmMtYTlmYi00ZWIzLWJiZWMtMjgxMjljYTk3MDAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2018"
+    },
+    {
+        "id": "tt6263850",
+        "rating_th": 4.0,
+        "title": "Deadpool & Wolverine",
+        "url": "https://www.imdb.com/title/tt6263850",
+        "type": "Movie",
+        "genre": "Action, Comedy, Sci-Fi, Adventure",
+        "directors": "Shawn Levy",
+        "plot": "Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2024"
+    },
+    {
+        "id": "tt4574334",
+        "rating_th": 5.0,
+        "title": "Stranger Things",
+        "url": "https://www.imdb.com/title/tt4574334",
+        "type": "TV Series",
+        "genre": "Drama, Horror, Thriller, Sci-Fi, Mystery, Fantasy",
+        "directors": "",
+        "plot": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+        "year": "2016–2025",
+        "seasons": 5
+    },
+    {
+        "id": "tt0109836",
+        "rating_th": 7.0,
+        "title": "Mary Shelley's Frankenstein",
+        "url": "https://www.imdb.com/title/tt0109836",
+        "type": "Movie",
+        "genre": "Sci-Fi, Romance, Drama, Horror",
+        "directors": "Kenneth Branagh",
+        "plot": "When the brilliant but unorthodox scientist Dr. Victor Frankenstein rejects the artificial man that he has created, the Creature escapes and later swears revenge.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGQ2MWNjYWMtYmUxMy00MmMzLThhOTktMTc4MjRiOTM0N2VmXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1994"
+    },
+    {
+        "id": "tt3322312",
+        "rating_th": 6.0,
+        "title": "Daredevil",
+        "url": "https://www.imdb.com/title/tt3322312",
+        "type": "TV Series",
+        "genre": "Action, Crime, Drama, Thriller, Sci-Fi",
+        "directors": "",
+        "plot": "A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODcwOTg2MDE3NF5BMl5BanBnXkFtZTgwNTUyNTY1NjM@._V1_SX300.jpg",
+        "year": "2015–2018",
+        "seasons": 3
+    },
+    {
+        "id": "tt10985510",
+        "rating_th": 5.0,
+        "title": "Superman: Red Son",
+        "url": "https://www.imdb.com/title/tt10985510",
+        "type": "Video",
+        "genre": "Animation, Action, Sci-Fi",
+        "directors": "Sam Liu",
+        "plot": "What if baby Kal-El's rocket landed, not in Kansas, but in the Soviet Union? That is the premise of this Elseworld's tale from DC Comics.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDg3NDc5YzEtOTk1My00ZTZhLTlmNjctZTJlNjYzZjE0MTI1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_SX300.jpg",
+        "year": "2020"
+    },
+    {
+        "id": "tt0877057",
+        "rating_th": 8.0,
+        "title": "Death Note",
+        "url": "https://www.imdb.com/title/tt0877057",
+        "type": "TV Series",
+        "genre": "Animation, Mystery, Crime, Thriller, Fantasy, Drama",
+        "directors": "",
+        "plot": "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2006–2007",
+        "seasons": 1
+    },
+    {
+        "id": "tt0434685",
+        "rating_th": 8.0,
+        "title": "Gantz",
+        "url": "https://www.imdb.com/title/tt0434685",
+        "type": "TV Series",
+        "genre": "Animation, Sci-Fi, Fantasy, Horror, Drama, Action",
+        "directors": "",
+        "plot": "After their deaths, two teens are transported to an apartment with an ominous black sphere and must participate in a gory alien-hunting \"game.\"",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWY4NzE1NGUtZjJmZS00NGRhLTlmZDAtOWU1YTVlZjkxYTI0XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2004",
+        "seasons": 2
+    },
+    {
+        "id": "tt1355642",
+        "rating_th": 6.0,
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "url": "https://www.imdb.com/title/tt1355642",
+        "type": "TV Series",
+        "genre": "Animation, Action, Adventure, Drama, Sci-Fi, Comedy, Fantasy",
+        "directors": "",
+        "plot": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2009–2010",
+        "seasons": 1
+    },
+    {
+        "id": "tt0293429",
+        "rating_th": 5.0,
+        "title": "Mortal Kombat",
+        "url": "https://www.imdb.com/title/tt0293429",
+        "type": "Movie",
+        "genre": "Thriller, Sci-Fi, Adventure, Fantasy, Action",
+        "directors": "Simon McQuoid",
+        "plot": "MMA fighter Cole Young seeks out Earth's greatest champions in order to stand against the enemies of Outworld in a high stakes battle for the universe.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmRmN2I5M2EtNDA1Ny00N2ZmLWE3YWYtMjQ1NTFjY2Q4NWM5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2021"
+    },
+    {
+        "id": "tt17490712",
+        "rating_th": 5.0,
+        "title": "Mortal Kombat II",
+        "url": "https://www.imdb.com/title/tt17490712",
+        "type": "Movie",
+        "genre": "Action, Adventure, Fantasy, Sci-Fi",
+        "directors": "Simon McQuoid",
+        "plot": "The fan favorite champions -- now joined by Johnny Cage himself -- are pitted against one another in the ultimate battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTg2YWNkN2EtMzc1Ny00ZTBhLWFmYTItMmMyNzhjNjhhNmVhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2026"
+    },
+    {
+        "id": "tt1187064",
+        "rating_th": 8.0,
+        "title": "Triangle",
+        "url": "https://www.imdb.com/title/tt1187064",
+        "type": "Movie",
+        "genre": "Thriller, Mystery, Sci-Fi, Fantasy",
+        "directors": "Christopher Smith",
+        "plot": "Five friends set sail and their yacht is overturned by a strange and sudden storm. A mysterious ship arrives to rescue them, and what happens next cannot be explained.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzU3ZDA2MmUtYzFhMS00OGYyLWI3MDgtNDI4Zjg2YmRkNGYzXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2009"
+    },
+    {
+        "id": "tt1259521",
+        "rating_th": 8.0,
+        "title": "The Cabin in the Woods",
+        "url": "https://www.imdb.com/title/tt1259521",
+        "type": "Movie",
+        "genre": "Horror, Mystery, Thriller",
+        "directors": "Drew Goddard",
+        "plot": "Five teens visit a remote cabin and explore its cellar, finding strange items. When Dana reads from a book there, she unleashes zombie killers. But the situation is more complex than it appears.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTUxNzYyMjg2N15BMl5BanBnXkFtZTcwMTExNzExNw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2012"
+    },
+    {
+        "id": "tt1877832",
+        "rating_th": 5.0,
+        "title": "X-Men: Days of Future Past",
+        "url": "https://www.imdb.com/title/tt1877832",
+        "type": "Movie",
+        "genre": "Action, Sci-Fi, Thriller, Adventure",
+        "directors": "Bryan Singer",
+        "plot": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzNiYWE4NjMtMTU4OS00NmM4LWE4ZjAtYmE5OTA5NjkzODExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2014"
+    },
+    {
+        "id": "tt6718170",
+        "rating_th": 6.0,
+        "title": "The Super Mario Bros. Movie",
+        "url": "https://www.imdb.com/title/tt6718170",
+        "type": "Movie",
+        "genre": "Animation, Adventure, Family, Comedy, Fantasy",
+        "directors": "Aaron Horvath,Michael Jelenic,Pierre Leduc,Fabien Polack",
+        "plot": "Brooklyn plumbers Mario and Luigi are warped to the magical Mushroom Kingdom, and Mario must team up with Princess Peach, Toad, and Donkey Kong to save Luigi from the evil Bowser.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGZlN2EzOTYtMzUzOS00NTM3LTg0MTQtZDVjZGM4YmJlNWNhXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+        "year": "2023"
+    },
+    {
+        "id": "tt0499549",
+        "rating_th": 6.0,
+        "title": "Avatar",
+        "url": "https://www.imdb.com/title/tt0499549",
+        "type": "Movie",
+        "genre": "Sci-Fi, Action, Adventure, Fantasy",
+        "directors": "James Cameron",
+        "plot": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2009"
+    },
+    {
+        "id": "tt0944947",
+        "rating_th": 5.0,
+        "title": "Game of Thrones",
+        "url": "https://www.imdb.com/title/tt0944947",
+        "type": "TV Series",
+        "genre": "Fantasy, Drama",
+        "directors": "",
+        "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+        "year": "2011–2019",
+        "seasons": 8
+    },
+    {
+        "id": "tt12809988",
+        "rating_th": 5.0,
+        "title": "Sweet Tooth",
+        "url": "https://www.imdb.com/title/tt12809988",
+        "type": "TV Series",
+        "genre": "Fantasy, Sci-Fi, Action, Adventure, Drama",
+        "directors": "",
+        "plot": "A boy who is half human and half deer survives in a post-apocalyptic world with other hybrids.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWUxZWVhMTItOWQ1MS00OWFhLThkNzMtN2ZkN2EyMGI4M2M3XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2021–2024",
+        "seasons": 3
+    },
+    {
+        "id": "tt0117802",
+        "rating_th": 10.0,
+        "title": "Swingers",
+        "url": "https://www.imdb.com/title/tt0117802",
+        "type": "Movie",
+        "genre": "Drama, Comedy",
+        "directors": "Doug Liman",
+        "plot": "A wannabe actor has a hard time moving on from a break-up, but he is lucky to have supportive friends.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWMyNzc3NGEtMzdlMy00OGFjLWIwN2ItYmUxNmVhN2Y0ODYyXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1996"
+    },
+    {
+        "id": "tt1136608",
+        "rating_th": 10.0,
+        "title": "District 9",
+        "url": "https://www.imdb.com/title/tt1136608",
+        "type": "Movie",
+        "genre": "Sci-Fi, Action, Thriller",
+        "directors": "Neill Blomkamp",
+        "plot": "In a future Earth in which aliens are isolated in a remote ghetto, a government agent finds himself banished there.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OTI1OTM5NF5BMl5BanBnXkFtZTcwMzk5MTU1Mg@@._V1_SX300.jpg",
+        "year": "2009"
+    },
+    {
+        "id": "tt0443453",
+        "rating_th": 6.0,
+        "title": "Borat",
+        "url": "https://www.imdb.com/title/tt0443453",
+        "type": "Movie",
+        "genre": "Comedy",
+        "directors": "Larry Charles",
+        "plot": "Kazakh TV talking head Borat is dispatched to the United States to report on the greatest country in the world.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_SX300.jpg",
+        "year": "2006"
+    },
+    {
+        "id": "tt0892769",
+        "rating_th": 6.0,
+        "title": "How to Train Your Dragon",
+        "url": "https://www.imdb.com/title/tt0892769",
+        "type": "Movie",
+        "genre": "Animation, Adventure, Fantasy, Family, Action",
+        "directors": "Dean DeBlois,Chris Sanders",
+        "plot": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg",
+        "year": "2010"
+    },
+    {
+        "id": "tt0829482",
+        "rating_th": 10.0,
+        "title": "Superbad",
+        "url": "https://www.imdb.com/title/tt0829482",
+        "type": "Movie",
+        "genre": "Comedy",
+        "directors": "Greg Mottola",
+        "plot": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjk0MzdlZGEtNTRkOC00ZDRiLWJkYjAtMzUzYTRiNzk1YTViXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2007"
+    },
+    {
+        "id": "tt0264464",
+        "rating_th": 7.0,
+        "title": "Catch Me If You Can",
+        "url": "https://www.imdb.com/title/tt0264464",
+        "type": "Movie",
+        "genre": "Drama, Biography, Crime",
+        "directors": "Steven Spielberg",
+        "plot": "Barely 17 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2002"
+    },
+    {
+        "id": "tt1190634",
+        "rating_th": 6.0,
+        "title": "The Boys",
+        "url": "https://www.imdb.com/title/tt1190634",
+        "type": "TV Series",
+        "genre": "Action, Sci-Fi, Crime, Comedy, Drama",
+        "directors": "",
+        "plot": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjU4OWNiYzQtMzc1NS00NjZlLTgyYTctZWY4ZmEzMTkxYjA4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+        "year": "2019–2026",
+        "seasons": 5
+    },
+    {
+        "id": "tt0080120",
+        "rating_th": 10.0,
+        "title": "The Warriors",
+        "url": "https://www.imdb.com/title/tt0080120",
+        "type": "Movie",
+        "genre": "Thriller, Action, Crime",
+        "directors": "Walter Hill",
+        "plot": "Members of a street gang known as the Warriors must fight their way from the Bronx to their home turf on Coney Island when they are falsely accused of assassinating a respected gang leader.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjAzNTNlMTgtYzdlYi00NGViLWIwNzUtNjc3MDg1ZTAxNjc3XkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1979"
+    },
+    {
+        "id": "tt0378194",
+        "rating_th": 10.0,
+        "title": "Kill Bill: Vol. 2",
+        "url": "https://www.imdb.com/title/tt0378194",
+        "type": "Movie",
+        "genre": "Thriller, Crime, Action",
+        "directors": "Quentin Tarantino",
+        "plot": "The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd, and the treacherous, one-eyed Elle.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2FiNzhiZTctNzU1Mi00NDkwLWExNDMtZTg0MjYyNzhkNWNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2004"
+    },
+    {
+        "id": "tt1645170",
+        "rating_th": 6.0,
+        "title": "The Dictator",
+        "url": "https://www.imdb.com/title/tt1645170",
+        "type": "Movie",
+        "genre": "Comedy",
+        "directors": "Larry Charles",
+        "plot": "The heroic story of a dictator who risked his life to ensure that democracy would never come to the country he so lovingly oppressed.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2IwMDM3ZmQtNjQ3NS00OTFiLWI5YzEtYWE3YjI5NTk3YzkwXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2012"
+    },
+    {
+        "id": "tt0114746",
+        "rating_th": 10.0,
+        "title": "12 Monkeys",
+        "url": "https://www.imdb.com/title/tt0114746",
+        "type": "Movie",
+        "genre": "Mystery, Sci-Fi, Thriller",
+        "directors": "Terry Gilliam",
+        "plot": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDQwNDY0M2MtOGFmNy00ZjI5LTkzN2ItMzg5M2IwZTZjY2MyXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1995"
+    },
+    {
+        "id": "tt1291584",
+        "rating_th": 7.0,
+        "title": "Warrior",
+        "url": "https://www.imdb.com/title/tt1291584",
+        "type": "Movie",
+        "genre": "Drama, Sport, Action",
+        "directors": "Gavin O'Connor",
+        "plot": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_SX300.jpg",
+        "year": "2011"
+    },
+    {
+        "id": "tt2866360",
+        "rating_th": 10.0,
+        "title": "Coherence",
+        "url": "https://www.imdb.com/title/tt2866360",
+        "type": "Movie",
+        "genre": "Sci-Fi, Thriller, Mystery",
+        "directors": "James Ward Byrkit",
+        "plot": "Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQ3ODUzNDY2M15BMl5BanBnXkFtZTgwNzg0ODY2MTE@._V1_SX300.jpg",
+        "year": "2013"
+    },
+    {
+        "id": "tt1442437",
+        "rating_th": 7.0,
+        "title": "Modern Family",
+        "url": "https://www.imdb.com/title/tt1442437",
+        "type": "TV Series",
+        "genre": "Comedy, Romance, Drama",
+        "directors": "",
+        "plot": "Three different, but related, families face trials and tribulations in their own uniquely comedic ways.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzFlOWFjNzQtODViNC00NzgzLThhZmItZTc1N2VlZDgwODUwXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "2009–2020",
+        "seasons": 11
+    },
+    {
+        "id": "tt10872600",
+        "rating_th": 8.0,
+        "title": "Spider-Man: No Way Home",
+        "url": "https://www.imdb.com/title/tt10872600",
+        "type": "Movie",
+        "genre": "Action, Adventure, Sci-Fi, Fantasy",
+        "directors": "Jon Watts",
+        "plot": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+        "year": "2021"
+    },
+    {
+        "id": "tt9419884",
+        "rating_th": 7.0,
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "url": "https://www.imdb.com/title/tt9419884",
+        "type": "Movie",
+        "genre": "Action, Fantasy, Adventure, Sci-Fi",
+        "directors": "Sam Raimi",
+        "plot": "Doctor Strange teams up with a mysterious teenage girl who can travel across multiverses, to battle other-universe versions of himself which threaten to wipe out the multiverse. They seek help from the Scarlet Witch, Wong and others.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2022"
+    },
+    {
+        "id": "tt1637725",
+        "rating_th": 6.0,
+        "title": "Ted",
+        "url": "https://www.imdb.com/title/tt1637725",
+        "type": "Movie",
+        "genre": "Comedy",
+        "directors": "Seth MacFarlane",
+        "plot": "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_SX300.jpg",
+        "year": "2012"
+    },
+    {
+        "id": "tt0110357",
+        "rating_th": 7.0,
+        "title": "The Lion King",
+        "url": "https://www.imdb.com/title/tt0110357",
+        "type": "Movie",
+        "genre": "Animation, Musical, Drama, Adventure, Family",
+        "directors": "Roger Allers,Rob Minkoff",
+        "plot": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_SX300.jpg",
+        "year": "1994"
+    },
+    {
+        "id": "tt35466672",
+        "rating_th": 4.0,
+        "title": "Malcolm in the Middle: Life's Still Unfair",
+        "url": "https://www.imdb.com/title/tt35466672",
+        "type": "TV Mini Series",
+        "genre": "Comedy, Drama",
+        "directors": "",
+        "plot": "Malcolm and his daughter are drawn into the family's chaos when Hal and Lois demand his presence for their 40th wedding anniversary party.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGQ4MDU3MWItOWQzMC00ZWExLTk5OWQtYTk3MGM0YzJjMjIzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "year": "2026",
+        "seasons": 1
+    },
+    {
         "id": "tt15083184",
         "rating_th": 6.0,
         "title": "I Came By",
@@ -107,19 +999,6 @@
         "plot": "A morgue technician successfully reanimates the body of a little girl, but to keep her breathing, she will need to harvest biological materials from pregnant women. When the girl's mother, a nurse, discovers her baby alive, they e...",
         "poster": "https://m.media-amazon.com/images/M/MV5BZDhiZjBjOTYtNGZiMy00MWE4LWI5ZjAtZDI5NzBhNjdiOTI1XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2023"
-    },
-    {
-        "id": "tt1190634",
-        "rating_th": 8.0,
-        "title": "The Boys",
-        "url": "https://www.imdb.com/title/tt1190634",
-        "type": "TV Series",
-        "genre": "Action, Sci-Fi, Crime, Comedy, Drama",
-        "directors": "",
-        "plot": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZjU4OWNiYzQtMzc1NS00NjZlLTgyYTctZWY4ZmEzMTkxYjA4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
-        "year": "2019–2026",
-        "seasons": 5
     },
     {
         "id": "tt6741278",
@@ -669,18 +1548,6 @@
         "year": "1996"
     },
     {
-        "id": "tt6263850",
-        "rating_th": 6.0,
-        "title": "Deadpool & Wolverine",
-        "url": "https://www.imdb.com/title/tt6263850",
-        "type": "Movie",
-        "genre": "Action, Comedy, Sci-Fi, Adventure",
-        "directors": "Shawn Levy",
-        "plot": "Deadpool is offered a place in the Marvel Cinematic Universe by the Time Variance Authority, but instead recruits a variant of Wolverine to save his universe from extinction.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2024"
-    },
-    {
         "id": "tt2294449",
         "rating_th": 6.0,
         "title": "22 Jump Street",
@@ -887,18 +1754,6 @@
         "poster": "https://m.media-amazon.com/images/M/MV5BYmY3NDZjYzctMWEyYS00NzM1LTg5ZDYtYTA5ZDc5NWJjNjhkXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2023",
         "seasons": 1
-    },
-    {
-        "id": "tt0816692",
-        "rating_th": 9.0,
-        "title": "Interstellar",
-        "url": "https://www.imdb.com/title/tt0816692",
-        "type": "Movie",
-        "genre": "Sci-Fi, Adventure, Drama",
-        "directors": "Christopher Nolan",
-        "plot": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2014"
     },
     {
         "id": "tt6723592",
@@ -1315,18 +2170,6 @@
         "year": "1981"
     },
     {
-        "id": "tt0277371",
-        "rating_th": 7.0,
-        "title": "Not Another Teen Movie",
-        "url": "https://www.imdb.com/title/tt0277371",
-        "type": "Movie",
-        "genre": "Romance, Comedy",
-        "directors": "Joel Gallen",
-        "plot": "A sendup of all the teen movies that have accumulated in the past two decades.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNjllYzVjNjItYjQ2Ni00OGU4LTlkYjItMDYxOTBlM2YzNDA5XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2001"
-    },
-    {
         "id": "tt2567038",
         "rating_th": 4.0,
         "title": "The Frame",
@@ -1349,19 +2192,6 @@
         "plot": "Humans, in a fascist militaristic future, wage war with giant alien bugs.",
         "poster": "https://m.media-amazon.com/images/M/MV5BZTNiOGM1ZWUtZTZjZC00OWJmLWE2YzUtZjQ4ODZjZmVlMDU3XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "1997"
-    },
-    {
-        "id": "tt0100044",
-        "rating_th": 5.0,
-        "title": "Record of the Lodoss War",
-        "url": "https://www.imdb.com/title/tt0100044",
-        "type": "TV Series",
-        "genre": "Animation, Action, Adventure, Romance, Fantasy",
-        "directors": "",
-        "plot": "A group of medieval adventurers must participate in a war against dark forces in the land of Lodoss.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZWIzZGIzNDQtYzM5NS00NTMyLWI5NGItMThkNzE4ZDU4YjY2XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1990–1991",
-        "seasons": 1
     },
     {
         "id": "tt9362722",
@@ -1446,18 +2276,6 @@
         "plot": "After witnessing a bizarre, traumatic incident involving a patient, a psychiatrist becomes increasingly convinced she is being threatened by an uncanny entity.",
         "poster": "https://m.media-amazon.com/images/M/MV5BNjFhMzBlNzktMjE2Ni00YTMyLWI2YWUtYmM1N2QxMDQwZmZhXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2022"
-    },
-    {
-        "id": "tt6718170",
-        "rating_th": 7.0,
-        "title": "The Super Mario Bros. Movie",
-        "url": "https://www.imdb.com/title/tt6718170",
-        "type": "Movie",
-        "genre": "Animation, Adventure, Family, Comedy, Fantasy",
-        "directors": "Aaron Horvath,Michael Jelenic,Pierre Leduc,Fabien Polack",
-        "plot": "Brooklyn plumbers Mario and Luigi are warped to the magical Mushroom Kingdom, and Mario must team up with Princess Peach, Toad, and Donkey Kong to save Luigi from the evil Bowser.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOGZlN2EzOTYtMzUzOS00NTM3LTg0MTQtZDVjZGM4YmJlNWNhXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
-        "year": "2023"
     },
     {
         "id": "tt6372694",
@@ -2142,18 +2960,6 @@
         "year": "2022"
     },
     {
-        "id": "tt9419884",
-        "rating_th": 10.0,
-        "title": "Doctor Strange in the Multiverse of Madness",
-        "url": "https://www.imdb.com/title/tt9419884",
-        "type": "Movie",
-        "genre": "Action, Fantasy, Adventure, Sci-Fi",
-        "directors": "Sam Raimi",
-        "plot": "Doctor Strange teams up with a mysterious teenage girl who can travel across multiverses, to battle other-universe versions of himself which threaten to wipe out the multiverse. They seek help from the Scarlet Witch, Wong and others.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2022"
-    },
-    {
         "id": "tt10234724",
         "rating_th": 5.0,
         "title": "Moon Knight",
@@ -2261,18 +3067,6 @@
         "plot": "A scientist helps a comic-book artist to become the superhero he has created in order to battle a vicious gang of rapists.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMmIzMGE5MjQtOTZjYi00YWMxLTlkYTgtN2YxOTY3YTMzOGEyXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "1989"
-    },
-    {
-        "id": "tt10872600",
-        "rating_th": 9.0,
-        "title": "Spider-Man: No Way Home",
-        "url": "https://www.imdb.com/title/tt10872600",
-        "type": "Movie",
-        "genre": "Action, Adventure, Sci-Fi, Fantasy",
-        "directors": "Jon Watts",
-        "plot": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
-        "year": "2021"
     },
     {
         "id": "tt0292506",
@@ -2393,30 +3187,6 @@
         "plot": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.",
         "poster": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
         "year": "1995"
-    },
-    {
-        "id": "tt0110357",
-        "rating_th": 10.0,
-        "title": "The Lion King",
-        "url": "https://www.imdb.com/title/tt0110357",
-        "type": "Movie",
-        "genre": "Animation, Musical, Drama, Adventure, Family",
-        "directors": "Roger Allers,Rob Minkoff",
-        "plot": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1994"
-    },
-    {
-        "id": "tt1675434",
-        "rating_th": 10.0,
-        "title": "The Intouchables",
-        "url": "https://www.imdb.com/title/tt1675434",
-        "type": "Movie",
-        "genre": "Comedy, Drama",
-        "directors": "Olivier Nakache,Éric Toledano",
-        "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2011"
     },
     {
         "id": "tt0078748",
@@ -2841,19 +3611,6 @@
         "year": "2019"
     },
     {
-        "id": "tt12809988",
-        "rating_th": 8.0,
-        "title": "Sweet Tooth",
-        "url": "https://www.imdb.com/title/tt12809988",
-        "type": "TV Series",
-        "genre": "Fantasy, Sci-Fi, Action, Adventure, Drama",
-        "directors": "",
-        "plot": "A boy who is half human and half deer survives in a post-apocalyptic world with other hybrids.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZWUxZWVhMTItOWQ1MS00OWFhLThkNzMtN2ZkN2EyMGI4M2M3XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2021–2024",
-        "seasons": 3
-    },
-    {
         "id": "tt0302886",
         "rating_th": 10.0,
         "title": "Old School",
@@ -3070,18 +3827,6 @@
         "year": "2021"
     },
     {
-        "id": "tt0293429",
-        "rating_th": 6.0,
-        "title": "Mortal Kombat",
-        "url": "https://www.imdb.com/title/tt0293429",
-        "type": "Movie",
-        "genre": "Thriller, Sci-Fi, Adventure, Fantasy, Action",
-        "directors": "Simon McQuoid",
-        "plot": "MMA fighter Cole Young seeks out Earth's greatest champions in order to stand against the enemies of Outworld in a high stakes battle for the universe.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNmRmN2I5M2EtNDA1Ny00N2ZmLWE3YWYtMjQ1NTFjY2Q4NWM5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2021"
-    },
-    {
         "id": "tt7638348",
         "rating_th": 5.0,
         "title": "Boss Level",
@@ -3092,18 +3837,6 @@
         "plot": "Trapped in a time loop that constantly repeats the day of his murder, a former special forces agent must unlock the mystery behind his untimely demise.",
         "poster": "https://m.media-amazon.com/images/M/MV5BNThlODU1ZjAtMWZkOS00NDc4LWE5ZjYtZTk1NzYwZTdjMmJhXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2020"
-    },
-    {
-        "id": "tt0109836",
-        "rating_th": 5.0,
-        "title": "Frankenstein",
-        "url": "https://www.imdb.com/title/tt0109836",
-        "type": "Movie",
-        "genre": "Sci-Fi, Romance, Drama, Horror",
-        "directors": "Kenneth Branagh",
-        "plot": "When the brilliant but unorthodox scientist Dr. Victor Frankenstein rejects the artificial man that he has created, the Creature escapes and later swears revenge.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMGQ2MWNjYWMtYmUxMy00MmMzLThhOTktMTc4MjRiOTM0N2VmXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1994"
     },
     {
         "id": "tt1821641",
@@ -3188,42 +3921,6 @@
         "plot": "When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
         "year": "2015"
-    },
-    {
-        "id": "tt0387808",
-        "rating_th": 7.0,
-        "title": "Idiocracy",
-        "url": "https://www.imdb.com/title/tt0387808",
-        "type": "Movie",
-        "genre": "Adventure, Comedy, Sci-Fi, Thriller",
-        "directors": "Mike Judge",
-        "plot": "Corporal Joe Bauers, a decidedly average American, is selected for a top-secret hibernation program but is forgotten and left to awaken to a future so incredibly moronic that he's easily the most intelligent person alive.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNmNhN2NiOGUtOGM0Yy00ZjA3LTljNjAtNGZjZDZlNzdlZDcxXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2006"
-    },
-    {
-        "id": "tt5463162",
-        "rating_th": 6.0,
-        "title": "Deadpool 2",
-        "url": "https://www.imdb.com/title/tt5463162",
-        "type": "Movie",
-        "genre": "Action, Adventure, Comedy, Sci-Fi",
-        "directors": "David Leitch",
-        "plot": "Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with abilities from the brutal, time-traveling cyborg Cable.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNGY3N2ZhYmMtYTlmYi00ZWIzLWJiZWMtMjgxMjljYTk3MDAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2018"
-    },
-    {
-        "id": "tt1877832",
-        "rating_th": 7.0,
-        "title": "X-Men: Days of Future Past",
-        "url": "https://www.imdb.com/title/tt1877832",
-        "type": "Movie",
-        "genre": "Action, Sci-Fi, Thriller, Adventure",
-        "directors": "Bryan Singer",
-        "plot": "The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzNiYWE4NjMtMTU4OS00NmM4LWE4ZjAtYmE5OTA5NjkzODExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2014"
     },
     {
         "id": "tt0107048",
@@ -3490,19 +4187,6 @@
         "poster": "https://m.media-amazon.com/images/M/MV5BODcxMWI2NDMtYTc3NC00OTZjLWFmNmUtM2NmY2I1ODkxYzczXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
         "year": "2011–",
         "seasons": 7
-    },
-    {
-        "id": "tt2531336",
-        "rating_th": 6.0,
-        "title": "Lupin",
-        "url": "https://www.imdb.com/title/tt2531336",
-        "type": "TV Series",
-        "genre": "Crime, Drama, Mystery, Action, Thriller",
-        "directors": "",
-        "plot": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDJhODQ3ZDEtN2JmMS00Yjk5LTk1ZTUtMzI3YTU0NTNjMjAyXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2021–",
-        "seasons": 4
     },
     {
         "id": "tt7221388",
@@ -3852,7 +4536,7 @@
         "title": "Baby Driver",
         "url": "https://www.imdb.com/title/tt3890160",
         "type": "Movie",
-        "genre": "Action, Music, Crime, Drama",
+        "genre": "Action, Music, Crime, Drama, Romance, Thriller",
         "directors": "Edgar Wright",
         "plot": "Coerced into working for a crime boss, a young getaway driver must face the music when a doomed heist threatens his life, love, and freedom.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMjM3MjQ1MzkxNl5BMl5BanBnXkFtZTgwODk1ODgyMjI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
@@ -3921,18 +4605,6 @@
         "year": "1996"
     },
     {
-        "id": "tt0482571",
-        "rating_th": 9.0,
-        "title": "The Prestige",
-        "url": "https://www.imdb.com/title/tt0482571",
-        "type": "Movie",
-        "genre": "Drama, Thriller, Mystery, Sci-Fi",
-        "directors": "Christopher Nolan",
-        "plot": "Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but, with terrible consequences.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTM3MzQ5MjQ5OF5BMl5BanBnXkFtZTcwMTQ3NzMzMw@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
-        "year": "2006"
-    },
-    {
         "id": "tt0206636",
         "rating_th": 9.0,
         "title": "Chris Rock: Bigger & Blacker",
@@ -3981,18 +4653,6 @@
         "year": "2005"
     },
     {
-        "id": "tt0264464",
-        "rating_th": 8.0,
-        "title": "Catch Me If You Can",
-        "url": "https://www.imdb.com/title/tt0264464",
-        "type": "Movie",
-        "genre": "Drama, Biography, Crime",
-        "directors": "Steven Spielberg",
-        "plot": "Barely 17 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2002"
-    },
-    {
         "id": "tt5109784",
         "rating_th": 8.0,
         "title": "Mother!",
@@ -4003,44 +4663,6 @@
         "plot": "A couple's relationship is tested when uninvited guests arrive at their home, disrupting their tranquil existence.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMzc5ODExODE0MV5BMl5BanBnXkFtZTgwNDkzNDUxMzI@._V1_SX300.jpg",
         "year": "2017"
-    },
-    {
-        "id": "tt5180504",
-        "rating_th": 8.0,
-        "title": "The Witcher",
-        "url": "https://www.imdb.com/title/tt5180504",
-        "type": "TV Series",
-        "genre": "Adventure, Fantasy, Mystery, Action, Drama",
-        "directors": "",
-        "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOTQzMzNmMzUtODgwNS00YTdhLTg5N2MtOWU1YTc4YWY3NjRlXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2019–",
-        "seasons": 4
-    },
-    {
-        "id": "tt0993846",
-        "rating_th": 8.0,
-        "title": "The Wolf of Wall Street",
-        "url": "https://www.imdb.com/title/tt0993846",
-        "type": "Movie",
-        "genre": "Crime, Drama, Biography, Comedy",
-        "directors": "Martin Scorsese",
-        "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2013"
-    },
-    {
-        "id": "tt4574334",
-        "rating_th": 6.0,
-        "title": "Stranger Things",
-        "url": "https://www.imdb.com/title/tt4574334",
-        "type": "TV Series",
-        "genre": "Drama, Horror, Thriller, Sci-Fi, Mystery, Fantasy",
-        "directors": "",
-        "plot": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
-        "year": "2016–2025",
-        "seasons": 5
     },
     {
         "id": "tt7366338",
@@ -4308,18 +4930,6 @@
         "year": "2019"
     },
     {
-        "id": "tt10985510",
-        "rating_th": 3.0,
-        "title": "Superman: Red Son",
-        "url": "https://www.imdb.com/title/tt10985510",
-        "type": "Video",
-        "genre": "Animation, Action, Sci-Fi",
-        "directors": "Sam Liu",
-        "plot": "What if baby Kal-El's rocket landed, not in Kansas, but in the Soviet Union? That is the premise of this Elseworld's tale from DC Comics.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDg3NDc5YzEtOTk1My00ZTZhLTlmNjctZTJlNjYzZjE0MTI1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_SX300.jpg",
-        "year": "2020"
-    },
-    {
         "id": "tt6751668",
         "rating_th": 8.0,
         "title": "Parasite",
@@ -4548,18 +5158,6 @@
         "year": "2019"
     },
     {
-        "id": "tt1477834",
-        "rating_th": 6.0,
-        "title": "Aquaman",
-        "url": "https://www.imdb.com/title/tt1477834",
-        "type": "Movie",
-        "genre": "Action, Adventure, Sci-Fi, Fantasy",
-        "directors": "James Wan",
-        "plot": "Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2018"
-    },
-    {
         "id": "tt2737304",
         "rating_th": 6.0,
         "title": "Bird Box",
@@ -4618,18 +5216,6 @@
         "plot": "Security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_SX300.jpg",
         "year": "2019"
-    },
-    {
-        "id": "tt5580266",
-        "rating_th": 8.0,
-        "title": "The Hate U Give",
-        "url": "https://www.imdb.com/title/tt5580266",
-        "type": "Movie",
-        "genre": "Drama, Crime",
-        "directors": "George Tillman Jr.",
-        "plot": "Starr witnesses the fatal shooting of her childhood best friend Khalil at the hands of a police officer. Now, facing pressure from all sides of the community, Starr must find her voice and stand up for what's right.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZWZlYjczMjctNTFhNC00OGUyLWFhNTgtY2RlZjE3NGI0NDJkXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2018"
     },
     {
         "id": "tt4530422",
@@ -4874,19 +5460,6 @@
         "year": "2018"
     },
     {
-        "id": "tt8679236",
-        "rating_th": 9.0,
-        "title": "Who Is America?",
-        "url": "https://www.imdb.com/title/tt8679236",
-        "type": "TV Series",
-        "genre": "Comedy",
-        "directors": "",
-        "plot": "Sacha Baron Cohen offers his take on America's patriotism.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZTg3ZDRkZWItYzA1Yy00MjdlLTk3MGItMTJkZjM5Y2VjZmM4XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2018",
-        "seasons": 1
-    },
-    {
         "id": "tt1728196",
         "rating_th": 7.0,
         "title": "Hara-Kiri: Death of a Samurai",
@@ -4921,19 +5494,6 @@
         "plot": "While on probation, a man begins to re-evaluate his relationship with his volatile best friend.",
         "poster": "https://m.media-amazon.com/images/M/MV5BODc5ZmRjNzItODhjYS00NTJjLTg1YWYtNjBmMzY0YThhYjljXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2018"
-    },
-    {
-        "id": "tt3322312",
-        "rating_th": 4.0,
-        "title": "Daredevil",
-        "url": "https://www.imdb.com/title/tt3322312",
-        "type": "TV Series",
-        "genre": "Action, Crime, Drama, Thriller, Sci-Fi",
-        "directors": "",
-        "plot": "A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BODcwOTg2MDE3NF5BMl5BanBnXkFtZTgwNTUyNTY1NjM@._V1_SX300.jpg",
-        "year": "2015–2018",
-        "seasons": 3
     },
     {
         "id": "tt1270797",
@@ -5190,18 +5750,6 @@
         "year": "2016"
     },
     {
-        "id": "tt0451279",
-        "rating_th": 8.0,
-        "title": "Wonder Woman",
-        "url": "https://www.imdb.com/title/tt0451279",
-        "type": "Movie",
-        "genre": "Action, Adventure, Fantasy, Sci-Fi, War",
-        "directors": "Patty Jenkins",
-        "plot": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMjEzYmZkNjktODBmYi00NzNkLWIzMjItMjhkMWZiZTZlN2MwXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2017"
-    },
-    {
         "id": "tt2527336",
         "rating_th": 4.0,
         "title": "Star Wars: Episode VIII - The Last Jedi",
@@ -5248,18 +5796,6 @@
         "plot": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
         "year": "2017"
-    },
-    {
-        "id": "tt1825683",
-        "rating_th": 10.0,
-        "title": "Black Panther",
-        "url": "https://www.imdb.com/title/tt1825683",
-        "type": "Movie",
-        "genre": "Action, Adventure, Sci-Fi",
-        "directors": "Ryan Coogler",
-        "plot": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2018"
     },
     {
         "id": "tt1179933",
@@ -5419,19 +5955,6 @@
         "year": "2017"
     },
     {
-        "id": "tt4230076",
-        "rating_th": 6.0,
-        "title": "The Defenders",
-        "url": "https://www.imdb.com/title/tt4230076",
-        "type": "TV Mini Series",
-        "genre": "Action, Adventure, Crime, Sci-Fi, Fantasy",
-        "directors": "",
-        "plot": "Set a few months after the events of the second season of Daredevil, and a month after the events of Iron Fist, the vigilantes Daredevil, Jessica Jones, Luke Cage, and Iron Fist team up in New York City to fight a common enemy: Th...",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTUwMjA5NTg4MF5BMl5BanBnXkFtZTgwODUyODkwMzI@._V1_SX300.jpg",
-        "year": "2017",
-        "seasons": 1
-    },
-    {
         "id": "tt5155780",
         "rating_th": 6.0,
         "title": "The Discovery",
@@ -5526,18 +6049,6 @@
         "plot": "Gloria is an out-of-work party girl forced to leave her life in New York City and move back home. When reports surface that a giant creature is destroying Seoul, she gradually comes to the realization that she is somehow connected...",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTY2NTExOTA2MF5BMl5BanBnXkFtZTgwNTMwMjE2MTI@._V1_SX300.jpg",
         "year": "2016"
-    },
-    {
-        "id": "tt0765429",
-        "rating_th": 9.0,
-        "title": "American Gangster",
-        "url": "https://www.imdb.com/title/tt0765429",
-        "type": "Movie",
-        "genre": "Drama, Crime, Biography",
-        "directors": "Ridley Scott",
-        "plot": "An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZGExM2MwNjUtNThkNi00ZjBmLWJhZDgtN2ZmOWJiZWEwNGMxXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2007"
     },
     {
         "id": "tt0119008",
@@ -6203,18 +6714,6 @@
         "year": "2006"
     },
     {
-        "id": "tt0114746",
-        "rating_th": 9.0,
-        "title": "12 Monkeys",
-        "url": "https://www.imdb.com/title/tt0114746",
-        "type": "Movie",
-        "genre": "Mystery, Sci-Fi, Thriller",
-        "directors": "Terry Gilliam",
-        "plot": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDQwNDY0M2MtOGFmNy00ZjI5LTkzN2ItMzg5M2IwZTZjY2MyXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1995"
-    },
-    {
         "id": "tt0137523",
         "rating_th": 8.0,
         "title": "Fight Club",
@@ -6225,18 +6724,6 @@
         "plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
         "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
         "year": "1999"
-    },
-    {
-        "id": "tt1136608",
-        "rating_th": 8.0,
-        "title": "District 9",
-        "url": "https://www.imdb.com/title/tt1136608",
-        "type": "Movie",
-        "genre": "Sci-Fi, Action, Thriller",
-        "directors": "Neill Blomkamp",
-        "plot": "In a future Earth in which aliens are isolated in a remote ghetto, a government agent finds himself banished there.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTM4OTI1OTM5NF5BMl5BanBnXkFtZTcwMzk5MTU1Mg@@._V1_SX300.jpg",
-        "year": "2009"
     },
     {
         "id": "tt0139809",
@@ -6263,18 +6750,6 @@
         "year": "2002"
     },
     {
-        "id": "tt1187064",
-        "rating_th": 7.0,
-        "title": "Triangle",
-        "url": "https://www.imdb.com/title/tt1187064",
-        "type": "Movie",
-        "genre": "Thriller, Mystery, Sci-Fi, Fantasy",
-        "directors": "Christopher Smith",
-        "plot": "Five friends set sail and their yacht is overturned by a strange and sudden storm. A mysterious ship arrives to rescue them, and what happens next cannot be explained.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzU3ZDA2MmUtYzFhMS00OGYyLWI3MDgtNDI4Zjg2YmRkNGYzXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2009"
-    },
-    {
         "id": "tt2479478",
         "rating_th": 2.0,
         "title": "The Ridiculous 6",
@@ -6297,18 +6772,6 @@
         "plot": "Socially frustrated Barry Egan calls a phone-sex line to curb his loneliness. Little does he know it will land him in deep trouble and will jeopardize his burgeoning romance with the mysterious Lena.",
         "poster": "https://m.media-amazon.com/images/M/MV5BZTYyMTQ2MDAtMzYzYS00YjZiLWJiNDUtZjEwNzM4YzE1ZDhhXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2002"
-    },
-    {
-        "id": "tt2866360",
-        "rating_th": 9.0,
-        "title": "Coherence",
-        "url": "https://www.imdb.com/title/tt2866360",
-        "type": "Movie",
-        "genre": "Sci-Fi, Thriller, Mystery",
-        "directors": "James Ward Byrkit",
-        "plot": "Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzQ3ODUzNDY2M15BMl5BanBnXkFtZTgwNzg0ODY2MTE@._V1_SX300.jpg",
-        "year": "2013"
     },
     {
         "id": "tt2084989",
@@ -6684,18 +7147,6 @@
         "year": "2014"
     },
     {
-        "id": "tt2268458",
-        "rating_th": 7.0,
-        "title": "These Final Hours",
-        "url": "https://www.imdb.com/title/tt2268458",
-        "type": "Movie",
-        "genre": "Drama, Thriller, Sci-Fi",
-        "directors": "Zak Hilditch",
-        "plot": "A self-obsessed young man makes his way to the party-to-end-all-parties on the last day on Earth, but ends up saving the life of a little girl searching for her father. Their relationship ultimately leads him on the path to redemp...",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMWU0YWMxZTMtNmI1Zi00ZmMxLWJkZjItMTNmZTQxMjFjM2RkXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2013"
-    },
-    {
         "id": "tt2397535",
         "rating_th": 8.0,
         "title": "Predestination",
@@ -7022,18 +7473,6 @@
         "year": "2012"
     },
     {
-        "id": "tt1291584",
-        "rating_th": 9.0,
-        "title": "Warrior",
-        "url": "https://www.imdb.com/title/tt1291584",
-        "type": "Movie",
-        "genre": "Drama, Sport, Action",
-        "directors": "Gavin O'Connor",
-        "plot": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_SX300.jpg",
-        "year": "2011"
-    },
-    {
         "id": "tt1723811",
         "rating_th": 6.0,
         "title": "Shame",
@@ -7082,18 +7521,6 @@
         "year": "2011"
     },
     {
-        "id": "tt1259521",
-        "rating_th": 7.0,
-        "title": "The Cabin in the Woods",
-        "url": "https://www.imdb.com/title/tt1259521",
-        "type": "Movie",
-        "genre": "Horror, Mystery, Thriller",
-        "directors": "Drew Goddard",
-        "plot": "Five teens visit a remote cabin and explore its cellar, finding strange items. When Dana reads from a book there, she unleashes zombie killers. But the situation is more complex than it appears.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNTUxNzYyMjg2N15BMl5BanBnXkFtZTcwMTExNzExNw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2012"
-    },
-    {
         "id": "tt0083944",
         "rating_th": 8.0,
         "title": "First Blood",
@@ -7116,18 +7543,6 @@
         "plot": "Loner Rambo leaves a Buddhist monastery to free his Green Beret mentor from Soviets in Afghanistan.",
         "poster": "https://m.media-amazon.com/images/M/MV5BNzBjYjk0MDMtNmUyYi00MjJlLWEwZmMtMGZlYWI1OTEwMjdkXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "1988"
-    },
-    {
-        "id": "tt1637725",
-        "rating_th": 10.0,
-        "title": "Ted",
-        "url": "https://www.imdb.com/title/tt1637725",
-        "type": "Movie",
-        "genre": "Comedy",
-        "directors": "Seth MacFarlane",
-        "plot": "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_SX300.jpg",
-        "year": "2012"
     },
     {
         "id": "tt0250258",
@@ -7239,19 +7654,6 @@
         "seasons": 11
     },
     {
-        "id": "tt1442437",
-        "rating_th": 9.0,
-        "title": "Modern Family",
-        "url": "https://www.imdb.com/title/tt1442437",
-        "type": "TV Series",
-        "genre": "Comedy, Romance, Drama",
-        "directors": "",
-        "plot": "Three different, but related, families face trials and tribulations in their own uniquely comedic ways.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYzFlOWFjNzQtODViNC00NzgzLThhZmItZTc1N2VlZDgwODUwXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2009–2020",
-        "seasons": 11
-    },
-    {
         "id": "tt0055928",
         "rating_th": 5.0,
         "title": "Dr. No",
@@ -7276,18 +7678,6 @@
         "year": "2010"
     },
     {
-        "id": "tt0130827",
-        "rating_th": 8.0,
-        "title": "Run Lola Run",
-        "url": "https://www.imdb.com/title/tt0130827",
-        "type": "Movie",
-        "genre": "Crime, Thriller, Action",
-        "directors": "Tom Tykwer",
-        "plot": "After a botched money delivery, Lola has 20 minutes to come up with 100,000 Deutschmarks.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMzA0NDdiNDgtNjI4Ny00OTc0LTg3NGMtZDBlNmI1ZGUxYTg2XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1998"
-    },
-    {
         "id": "tt0113277",
         "rating_th": 7.0,
         "title": "Heat",
@@ -7298,19 +7688,6 @@
         "plot": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_QL75_UY562_CR6,0,380,562_.jpg",
         "year": "1995"
-    },
-    {
-        "id": "tt0944947",
-        "rating_th": 7.0,
-        "title": "Game of Thrones",
-        "url": "https://www.imdb.com/title/tt0944947",
-        "type": "TV Series",
-        "genre": "Fantasy, Drama",
-        "directors": "",
-        "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
-        "year": "2011–2019",
-        "seasons": 8
     },
     {
         "id": "tt1276104",
@@ -7407,30 +7784,6 @@
         "plot": "A group of friends venture deep into the streets of New York on a rescue mission during a rampaging monster attack.",
         "poster": "https://m.media-amazon.com/images/M/MV5BOWM3NmYyMjAtMjU3YS00MDJjLThmNDItNWUzZmFmMzk5NTEyXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2008"
-    },
-    {
-        "id": "tt0133751",
-        "rating_th": 6.0,
-        "title": "The Faculty",
-        "url": "https://www.imdb.com/title/tt0133751",
-        "type": "Movie",
-        "genre": "Mystery, Sci-Fi, Horror",
-        "directors": "Robert Rodriguez",
-        "plot": "When Casey Connor, Herrington High School's newspaper photographer, witnesses the murder of a nurse and sees her alive again, he decides to investigate the bizarre happenings.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYWQ5Njk0MzUtZTliZC00ODgzLTlmZTEtZGY0NDgyMTM0NGJmXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1998"
-    },
-    {
-        "id": "tt1645170",
-        "rating_th": 9.0,
-        "title": "The Dictator",
-        "url": "https://www.imdb.com/title/tt1645170",
-        "type": "Movie",
-        "genre": "Comedy",
-        "directors": "Larry Charles",
-        "plot": "The heroic story of a dictator who risked his life to ensure that democracy would never come to the country he so lovingly oppressed.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BM2IwMDM3ZmQtNjQ3NS00OTFiLWI5YzEtYWE3YjI5NTk3YzkwXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2012"
     },
     {
         "id": "tt0284837",
@@ -7551,18 +7904,6 @@
         "plot": "A black op has gone terribly wrong. Now, Captain Carmen Ibanez and a hardcore trooper famed as Major Henry \"Hero\" Varro must lead a team of battle-weary troopers to find the missing ship and discover what went wrong.",
         "poster": "https://m.media-amazon.com/images/M/MV5BNjI4N2M3NDQtMGZiNS00NDkyLThmYmEtNjAyZDlkZjZjNzU5XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2012"
-    },
-    {
-        "id": "tt0238380",
-        "rating_th": 7.0,
-        "title": "Equilibrium",
-        "url": "https://www.imdb.com/title/tt0238380",
-        "type": "Movie",
-        "genre": "Drama, Sci-Fi, Thriller, Action",
-        "directors": "Kurt Wimmer",
-        "plot": "In an oppressive future where all forms of feeling are illegal, a man in charge of enforcing the law rises to overthrow the system and state.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTkzMzA1OTI3N15BMl5BanBnXkFtZTYwMzUyMDg5._V1_SX300.jpg",
-        "year": "2002"
     },
     {
         "id": "tt1386703",
@@ -7793,18 +8134,6 @@
         "year": "2004"
     },
     {
-        "id": "tt0113568",
-        "rating_th": 6.0,
-        "title": "Ghost in the Shell",
-        "url": "https://www.imdb.com/title/tt0113568",
-        "type": "Movie",
-        "genre": "Animation, Thriller, Mystery, Crime, Drama, Sci-Fi, Action",
-        "directors": "Mamoru Oshii",
-        "plot": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzljMjA3MTQtMjM1OS00OGJjLWJiYzctZDRiMTk1NWI5YzQ5XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1995"
-    },
-    {
         "id": "tt0386741",
         "rating_th": 6.0,
         "title": "Renaissance",
@@ -7935,18 +8264,6 @@
         "plot": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
         "poster": "https://m.media-amazon.com/images/M/MV5BYWNiOGZkOTgtNGMzMC00MDg5LTliM2UtN2VjMDI3N2ViOWE5XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2008"
-    },
-    {
-        "id": "tt0829482",
-        "rating_th": 8.0,
-        "title": "Superbad",
-        "url": "https://www.imdb.com/title/tt0829482",
-        "type": "Movie",
-        "genre": "Comedy",
-        "directors": "Greg Mottola",
-        "plot": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNjk0MzdlZGEtNTRkOC00ZDRiLWJkYjAtMzUzYTRiNzk1YTViXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2007"
     },
     {
         "id": "tt1637706",
@@ -8347,19 +8664,6 @@
         "year": "2003"
     },
     {
-        "id": "tt1439629",
-        "rating_th": 10.0,
-        "title": "Community",
-        "url": "https://www.imdb.com/title/tt1439629",
-        "type": "TV Series",
-        "genre": "Comedy",
-        "directors": "",
-        "plot": "A suspended lawyer is forced to enroll in a community college with an eccentric staff and student body.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2009–2015",
-        "seasons": 6
-    },
-    {
         "id": "tt0098904",
         "rating_th": 10.0,
         "title": "Seinfeld",
@@ -8566,18 +8870,6 @@
         "year": "2011"
     },
     {
-        "id": "tt0800080",
-        "rating_th": 8.0,
-        "title": "The Incredible Hulk",
-        "url": "https://www.imdb.com/title/tt0800080",
-        "type": "Movie",
-        "genre": "Action, Sci-Fi",
-        "directors": "Louis Leterrier",
-        "plot": "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2008"
-    },
-    {
         "id": "tt1270798",
         "rating_th": 6.0,
         "title": "X-Men: First Class",
@@ -8782,18 +9074,6 @@
         "year": "2007"
     },
     {
-        "id": "tt0443453",
-        "rating_th": 8.0,
-        "title": "Borat",
-        "url": "https://www.imdb.com/title/tt0443453",
-        "type": "Movie",
-        "genre": "Comedy",
-        "directors": "Larry Charles",
-        "plot": "Kazakh TV talking head Borat is dispatched to the United States to report on the greatest country in the world.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_SX300.jpg",
-        "year": "2006"
-    },
-    {
         "id": "tt0401792",
         "rating_th": 10.0,
         "title": "Sin City",
@@ -8816,18 +9096,6 @@
         "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_QL75_UY562_CR0,0,380,562_.jpg",
         "year": "2006"
-    },
-    {
-        "id": "tt0378194",
-        "rating_th": 9.0,
-        "title": "Kill Bill: Vol. 2",
-        "url": "https://www.imdb.com/title/tt0378194",
-        "type": "Movie",
-        "genre": "Thriller, Crime, Action",
-        "directors": "Quentin Tarantino",
-        "plot": "The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd, and the treacherous, one-eyed Elle.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BY2FiNzhiZTctNzU1Mi00NDkwLWExNDMtZTg0MjYyNzhkNWNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "year": "2004"
     },
     {
         "id": "tt1063669",
@@ -8859,7 +9127,7 @@
         "title": "Memento",
         "url": "https://www.imdb.com/title/tt0209144",
         "type": "Movie",
-        "genre": "Thriller, Mystery",
+        "genre": "Drama, Thriller, Mystery",
         "directors": "Christopher Nolan",
         "plot": "A former insurance investigator who now suffers from anterograde amnesia uses notes and tattoos to hunt down his wife's murderer.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMGQ3Y2Q4NjktN2E4Ny00Y2Q2LTliZDUtZTNiNjRhY2I0NGIyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
@@ -8876,18 +9144,6 @@
         "plot": "An inept tae kwon do instructor struggles with marital troubles and an unhealthy obsession with fellow tae kwon do enthusiast Chuck \"The Truck\" Wallace.",
         "poster": "https://m.media-amazon.com/images/M/MV5BNWFjNmMzN2YtNjU0Ny00YWE3LTk3MWYtNmU2ZjgzMzNkZTgyXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2006"
-    },
-    {
-        "id": "tt0892769",
-        "rating_th": 8.0,
-        "title": "How to Train Your Dragon",
-        "url": "https://www.imdb.com/title/tt0892769",
-        "type": "Movie",
-        "genre": "Animation, Adventure, Fantasy, Family, Action",
-        "directors": "Dean DeBlois,Chris Sanders",
-        "plot": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg",
-        "year": "2010"
     },
     {
         "id": "tt0990407",
@@ -8948,18 +9204,6 @@
         "plot": "A mountain climber becomes trapped under a boulder while canyoneering alone near Moab, Utah and resorts to desperate measures in order to survive.",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTc2NjMzOTE3Ml5BMl5BanBnXkFtZTcwMDE0OTc5Mw@@._V1_SX300.jpg",
         "year": "2010"
-    },
-    {
-        "id": "tt0093870",
-        "rating_th": 6.0,
-        "title": "RoboCop",
-        "url": "https://www.imdb.com/title/tt0093870",
-        "type": "Movie",
-        "genre": "Action, Crime, Thriller, Sci-Fi",
-        "directors": "Paul Verhoeven",
-        "plot": "In a violent future in Old Detroit, murdered police officer Alex Murphy is resurrected as RoboCop, a powerful cyborg law enforcer. As he fights crime, he begins to recover memories of his past and seeks revenge on the gang who kil...",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZWM1YzRhODktZDE1MC00NzBlLTk0NGMtOGNhZDQyMmJiZGFiXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1987"
     },
     {
         "id": "tt0240468",
@@ -9308,18 +9552,6 @@
         "plot": "In turn-of-the-century Vienna, a magician uses his abilities to secure the love of a woman far above his social standing.",
         "poster": "https://m.media-amazon.com/images/M/MV5BNzNmYmI4YWMtMGFkOS00ODVkLTg3MTEtOTExNDg3ZjQ0MGM3XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2006"
-    },
-    {
-        "id": "tt0884328",
-        "rating_th": 8.0,
-        "title": "The Mist",
-        "url": "https://www.imdb.com/title/tt0884328",
-        "type": "Movie",
-        "genre": "Horror, Sci-Fi, Thriller",
-        "directors": "Frank Darabont",
-        "plot": "After a massive thunderstorm, an eerie, unwavering fog descends upon a Maine community. Locals seek refuge in a grocery store from the monstrous creatures now roaming the countryside killing everyone they encounter.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjQyNDY1Ml5BMl5BanBnXkFtZTcwMTk1MDU1MQ@@._V1_SX300.jpg",
-        "year": "2007"
     },
     {
         "id": "tt0112442",
@@ -9795,7 +10027,7 @@
         "title": "Shutter Island",
         "url": "https://www.imdb.com/title/tt1130884",
         "type": "Movie",
-        "genre": "Thriller, Mystery, Drama",
+        "genre": "Thriller, Mystery",
         "directors": "Martin Scorsese",
         "plot": "Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.",
         "poster": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
@@ -9860,18 +10092,6 @@
         "plot": "A young woman's quest for revenge against the people who kidnapped and tormented her as a child leads her and a friend, who is also a victim of child abuse, on a terrifying journey into a living hell of depravity.",
         "poster": "https://m.media-amazon.com/images/M/MV5BN2Q5MWQ0OWYtMTUzMC00ZmU3LWEyNDAtZjg1NjE2ZjVkM2I3XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2008"
-    },
-    {
-        "id": "tt0499549",
-        "rating_th": 7.0,
-        "title": "Avatar",
-        "url": "https://www.imdb.com/title/tt0499549",
-        "type": "Movie",
-        "genre": "Sci-Fi, Action, Adventure, Fantasy",
-        "directors": "James Cameron",
-        "plot": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2009"
     },
     {
         "id": "tt1084019",
@@ -10186,18 +10406,6 @@
         "year": "2009"
     },
     {
-        "id": "tt0117802",
-        "rating_th": 8.0,
-        "title": "Swingers",
-        "url": "https://www.imdb.com/title/tt0117802",
-        "type": "Movie",
-        "genre": "Drama, Comedy",
-        "directors": "Doug Liman",
-        "plot": "A wannabe actor has a hard time moving on from a break-up, but he is lucky to have supportive friends.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMWMyNzc3NGEtMzdlMy00OGFjLWIwN2ItYmUxNmVhN2Y0ODYyXkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1996"
-    },
-    {
         "id": "tt1245112",
         "rating_th": 6.0,
         "title": "[Rec]²",
@@ -10244,18 +10452,6 @@
         "plot": "Three amateur robbers plan to hold up a Brooklyn bank. A nice, simple robbery: Walk in, take the money, and run. Unfortunately, the supposedly uncomplicated heist suddenly becomes a bizarre nightmare as everything that could go wr...",
         "poster": "https://m.media-amazon.com/images/M/MV5BY2RjNTg2ODMtZWQ4NC00MDdhLWE4MDgtMWFjMjI4ZTIxMGY4XkEyXkFqcGc@._V1_SX300.jpg",
         "year": "1975"
-    },
-    {
-        "id": "tt0944835",
-        "rating_th": 6.0,
-        "title": "Salt",
-        "url": "https://www.imdb.com/title/tt0944835",
-        "type": "Movie",
-        "genre": "Thriller, Action",
-        "directors": "Phillip Noyce",
-        "plot": "A CIA agent goes on the run after a defector accuses her of being a Russian spy.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMjIyODA2NDg4NV5BMl5BanBnXkFtZTcwMjg4NDAwMw@@._V1_SX300.jpg",
-        "year": "2010"
     },
     {
         "id": "tt1320253",
@@ -10364,18 +10560,6 @@
         "plot": "A group of elite warriors parachute into an unfamiliar jungle and are hunted by members of a merciless alien race.",
         "poster": "https://m.media-amazon.com/images/M/MV5BODNhMWY0MDQtNjgwZC00YjM3LWEwMDItMWM3MTg4ZjA5ODgwXkEyXkFqcGc@._V1_SX300.jpg",
         "year": "2010"
-    },
-    {
-        "id": "tt1213574",
-        "rating_th": 10.0,
-        "title": "Chris Rock: Kill the Messenger - London, New York, Johannesburg",
-        "url": "https://www.imdb.com/title/tt1213574",
-        "type": "TV Special",
-        "genre": "Documentary, Comedy",
-        "directors": "Marty Callner",
-        "plot": "Chris Rock's 2008 comedy tour visits London, New York and Johannesburg. Various parts of this tour are edited together to create his fifth HBO stand-up special.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZWY4NDMzMjMtMzRhMi00YjZhLThiNmEtOTcxZDA2NjEwMmM0XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "2008"
     },
     {
         "id": "tt0405336",
@@ -10690,18 +10874,6 @@
         "year": "2009"
     },
     {
-        "id": "tt0325710",
-        "rating_th": 8.0,
-        "title": "The Last Samurai",
-        "url": "https://www.imdb.com/title/tt0325710",
-        "type": "Movie",
-        "genre": "Drama, Action",
-        "directors": "Edward Zwick",
-        "plot": "In 19th century Japan, Nathan Algren, a US army captain, is hired by the Japanese emperor to train his army in the modern warfare techniques. Captain Algren finds himself trapped in a struggle between two eras and two worlds.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg",
-        "year": "2003"
-    },
-    {
         "id": "tt0891592",
         "rating_th": 1.0,
         "title": "Street Fighter: The Legend of Chun-Li",
@@ -10736,18 +10908,6 @@
         "plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
         "poster": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
         "year": "2000"
-    },
-    {
-        "id": "tt0080120",
-        "rating_th": 9.0,
-        "title": "The Warriors",
-        "url": "https://www.imdb.com/title/tt0080120",
-        "type": "Movie",
-        "genre": "Thriller, Action, Crime",
-        "directors": "Walter Hill",
-        "plot": "Members of a street gang known as the Warriors must fight their way from the Bronx to their home turf on Coney Island when they are falsely accused of assassinating a respected gang leader.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYjAzNTNlMTgtYzdlYi00NGViLWIwNzUtNjc3MDg1ZTAxNjc3XkEyXkFqcGc@._V1_SX300.jpg",
-        "year": "1979"
     },
     {
         "id": "tt0234215",
