@@ -8,8 +8,6 @@ import Assistindo from './pages/Assistindo';
 import Busca from './pages/Busca';
 
 function App() {
-  
-  const local = import.meta.env.DEV;
 
   return (
     <BrowserRouter>

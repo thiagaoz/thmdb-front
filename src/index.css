@@ -110,10 +110,10 @@
     0 0 15px #00B4FF;
 }
 
-.rating-btn{
-    width: 200px;
+.rating-btn {
+    width: 150px;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 10px; /* Ajustado para melhor legibilidade */
 }
 
 .neon {
@@ -121,6 +121,10 @@
     2px 2px 0 var(--sombra),
     0 0 8px var(--glow),
     0 0 12px var(--neon-suave);
+}
+
+.loading{
+  font-size: 40px;
 }
 
 .conteudo-sugestao {

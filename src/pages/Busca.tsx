@@ -8,8 +8,10 @@ import BuscaGrid from '../components/BuscaGrid';
 function Busca() {
   const [busca, setBusca] = useState<string>('');
   const [atracoesFiltradas, setAtracoesFiltradas] = useState<Atracao[] | null>(null);
+  const [carregando, setCarregando] = useState<boolean>(false);
 
   const handleBusca = async () => {
+    setCarregando(true);
     const resultadosLocais = atracoesData.filter(atracao =>
       atracao.title.toLowerCase().includes(busca.toLowerCase())
     );
@@ -17,6 +19,7 @@ function Busca() {
       ? await buscaAtracoesPorTitleAPI(busca)
       : [];
     setAtracoesFiltradas([...resultadosLocais, ...resultadosApi]);
+    setCarregando(false);
   };
 
   const buscaAtracoesPorTitleAPI = async (title: string): Promise<Atracao[]> => {
@@ -30,24 +33,44 @@ function Busca() {
     }
   };
 
+  
+
   return (
+    
     <>
       <div className="header-container">
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
-          <p>Sejam bem-vindos a minha lista de filmes, séries e mais.</p>
         </div>
         <Navbar />
         <div className="search-bar">
           <label htmlFor="search">Buscar:</label>
-          <input className="input-field" type="text" placeholder=" The Matrix has you..." value={busca} onChange={(e) => setBusca(e.target.value)} />
+          <input 
+            className="input-field" 
+            type="text" 
+            placeholder=" The Matrix has you..." 
+            value={busca} 
+            onChange={(e) => setBusca(e.target.value)} 
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && busca.length >= 3) {
+                handleBusca();
+              }
+            }}
+          />
           <button className='link-button rating-btn submit-button' disabled={busca.length < 3} onClick={handleBusca}>IR</button>
         </div>
       </div>
 
       {/* Aqui está a correção: mova o BuscaGrid para fora do header-container */}
       <main className="main-content">
-        {atracoesFiltradas && <BuscaGrid atracoes={atracoesFiltradas} />}
+        {carregando ? (
+          <h3 className="neon loading">Carregando...</h3>
+        ) : (
+          atracoesFiltradas && atracoesFiltradas.length === 0 && (
+            <h3 className="neon loading">Nenhum resultado encontrado.</h3>
+          )
+        )}
+        {atracoesFiltradas && !carregando && <BuscaGrid atracoes={atracoesFiltradas} />}
       </main>
     </>
   );
