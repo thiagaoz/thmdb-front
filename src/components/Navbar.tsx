@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
-  const local = import.meta.env.DEV;
 
   return (
     <>
@@ -12,9 +11,6 @@ const Navbar: React.FC = () => {
             <Link to="/seriados" className='link-button'>Seriados</Link>
             <Link to="/assistindo" className='link-button'>Assistindo</Link>
             <Link to="/busca" className='link-button'>Buscar</Link>
-            {local &&
-                <Link to="/zero" className='link-button'>ZeRØ</Link>
-            }
         </div>
     </>
   );

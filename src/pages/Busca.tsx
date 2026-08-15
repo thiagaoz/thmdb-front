@@ -9,7 +9,6 @@ function Busca() {
   const [busca, setBusca] = useState<string>('');
   const [atracoesFiltradas, setAtracoesFiltradas] = useState<Atracao[] | null>(null);
 
-
   const handleBusca = async () => {
     const resultadosLocais = atracoesData.filter(atracao =>
       atracao.title.toLowerCase().includes(busca.toLowerCase())

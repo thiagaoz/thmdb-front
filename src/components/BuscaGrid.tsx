@@ -10,6 +10,11 @@ type Props = {
 
 const BuscaGrid: React.FC<Props> = ({ atracoes }) => {
 
+  const ratingEstrelas = (nota: number): string => {
+    let estrelas = Math.round(nota / 2); // Arredonda para uma casa decimal
+    let rating = '⭐'.repeat(estrelas);
+    return rating;
+  }
 
   return (
     <div className="atracoes-grid">
@@ -25,7 +30,7 @@ const BuscaGrid: React.FC<Props> = ({ atracoes }) => {
               e.currentTarget.src = noPoster;
             }}
           />
-          <h2>{atracao.rating_th? "Visto" : "Não Visto"}</h2>
+          <h2>{atracao.rating_th? ratingEstrelas(atracao.rating_th) : "Não Visto"}</h2>
         </article>
       ))}
     </div>
