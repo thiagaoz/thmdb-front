@@ -31,4 +31,5 @@ const AtracoesGrid: React.FC<Props> = ({ atracoes }) => {
   );
 };
 
+
 export default AtracoesGrid;

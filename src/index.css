@@ -103,7 +103,7 @@
 
 
 /* Altera o estilo quando o usuário passa o mouse por cima */
-.link-button:hover {
+.link-button:hover, .selected {
   background-color: #00F7FF;
   box-shadow:
     0 0 8px #00FFFF,
@@ -171,6 +171,20 @@
   min-height: 550px;
   margin-top: 300px;
   margin-left: 100px;
+}
+
+.quantidade-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px; /* Espaçamento entre os elementos */
+    margin-top: 100px;
+}
+
+.quantidades{
+  font-size: 25px;
+  margin-right: 30px;
 }
 
 .poster-container {

@@ -42,7 +42,7 @@ function Busca() {
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
         </div>
-        <Navbar />
+        <Navbar selected='busca' />
         <div className="search-bar">
           <label htmlFor="search">Buscar:</label>
           <input 

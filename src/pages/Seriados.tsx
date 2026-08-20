@@ -1,34 +1,58 @@
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import atracoesData from '../data/atracao.json';
-import React from 'react';
 import type { Atracao } from '../types';
 import AtracoesGrid from '../components/AtracoesGrid';
 
 function Seriados() {
   const [atracoesSelecionadas, setAtracoesSelecionadas] = useState<Atracao[] | null>(null);
+  const [selected, setSelected] = useState<string>('');
 
-const atracoes = atracoesData.filter( atracao => atracao.type == "TV Series" || atracao.type == "TV Mini Series");
-const atracoesGOATs = atracoes.filter(atracao => atracao.rating_th > 9);
-const atracoesExcelentes = atracoes.filter(atracao => atracao.rating_th > 7 && atracao.rating_th <= 9);
-const atracoesBons = atracoes.filter(atracao => atracao.rating_th >= 6 && atracao.rating_th <= 7);
-const atracoesMaus = atracoes.filter(atracao => atracao.rating_th >= 3 && atracao.rating_th < 6);
-const atracoesFeios = atracoes.filter(atracao => atracao.rating_th < 3);
+const handleAtracoesSelecionadas = (selecao: string) => {
+  const atracoes = atracoesData.filter( atracao => atracao.type == "TV Series" || atracao.type == "TV Mini Series");
 
+  let filteredAtracoes;
+  switch (selecao) {
+    case 'GOATs':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th === 10);
+      break;
+    case 'Excelentes':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th > 7 && atracao.rating_th < 10);
+      break;
+    case 'Bons':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th === 7);
+      break;
+    case 'Medianos':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th === 6);
+      break;
+    case 'Maus':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th > 3 && atracao.rating_th < 6);
+      break;
+    case 'Feios':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th < 3);
+      break;
+    default:
+      filteredAtracoes = null;
+  }
+
+  setAtracoesSelecionadas(filteredAtracoes);
+  setSelected(selecao);
+};
   return (
     <>
       <div className="header-container">
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
         </div>
-        <Navbar />
+        <Navbar selected='seriados' />
 
         <div className='navbar rating-menu'>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesGOATs)}>GOATs</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesExcelentes)}>Excelentes</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesBons)}>Bons</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesMaus)}>Maus</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesFeios)}>E os Feios...</button>
+          <button className={selected === 'GOATs' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('GOATs')}>GOATs</button>
+          <button className={selected === 'Excelentes' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Excelentes')}>Excelentes</button>
+          <button className={selected === 'Bons' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Bons')}>Bons</button>
+          <button className={selected === 'Medianos' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Medianos')}>Medianos</button>
+          <button className={selected === 'Maus' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Maus')}>Maus</button>
+          <button className={selected === 'Feios' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Feios')}>E os Feios...</button>
         </div>
       </div>
 

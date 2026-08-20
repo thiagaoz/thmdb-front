@@ -6,14 +6,39 @@ import AtracoesGrid from '../components/AtracoesGrid';
 
 function Filmes() {
   const [atracoesSelecionadas, setAtracoesSelecionadas] = useState<Atracao[] | null>(null);
+  const [selected, setSelected] = useState<string>('');
 
-const atracoes = atracoesData.filter( atracao => atracao.type === "Movie");
-const atracoesGOATs = atracoes.filter(atracao => atracao.rating_th === 10);
-const atracoesExcelentes = atracoes.filter(atracao => atracao.rating_th > 7 && atracao.rating_th < 10); // nota 8 e 9 são consideradas excelentes
-const atracoesBons = atracoes.filter(atracao => atracao.rating_th === 7); 
-const atracoesMedianos = atracoes.filter(atracao => atracao.rating_th === 6);
-const atracoesMaus = atracoes.filter(atracao => atracao.rating_th > 3 && atracao.rating_th < 6); // nota 4 e 5 são consideradas ruins
-const atracoesFeios = atracoes.filter(atracao => atracao.rating_th < 3);
+const handleAtracoesSelecionadas = (selecao: string) => {
+  const atracoes = atracoesData.filter( atracao => atracao.type === "Movie");
+
+  let filteredAtracoes;
+  switch (selecao) {
+    case 'GOATs':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th === 10);
+      break;
+    case 'Excelentes':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th > 7 && atracao.rating_th < 10);
+      break;
+    case 'Bons':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th === 7);
+      break;
+    case 'Medianos':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th === 6);
+      break;
+    case 'Maus':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th > 3 && atracao.rating_th < 6);
+      break;
+    case 'Feios':
+      filteredAtracoes = atracoes.filter(atracao => atracao.rating_th < 3);
+      break;
+    default:
+      filteredAtracoes = null;
+  }
+
+  setAtracoesSelecionadas(filteredAtracoes);
+  setSelected(selecao);
+};
+
 
   return (
     <>
@@ -21,15 +46,15 @@ const atracoesFeios = atracoes.filter(atracao => atracao.rating_th < 3);
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
         </div>
-        <Navbar />
+        <Navbar selected='filmes' />
 
         <div className='navbar rating-menu'>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesGOATs)}>GOATs</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesExcelentes)}>Excelentes</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesBons)}>Bons</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesMedianos)}>Medianos</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesMaus)}>Maus</button>
-          <button className='link-button rating-btn' onClick={() => setAtracoesSelecionadas(atracoesFeios)}>E os Feios...</button>
+          <button className={selected === 'GOATs' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('GOATs')}>GOATs</button>
+          <button className={selected === 'Excelentes' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Excelentes')}>Excelentes</button>
+          <button className={selected === 'Bons' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Bons')}>Bons</button>
+          <button className={selected === 'Medianos' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Medianos')}>Medianos</button>
+          <button className={selected === 'Maus' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Maus')}>Maus</button>
+          <button className={selected === 'Feios' ? 'link-button rating-btn selected' : 'link-button rating-btn'} onClick={() => handleAtracoesSelecionadas('Feios')}>E os Feios...</button>
         </div>
       </div>
 

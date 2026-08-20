@@ -1,17 +1,26 @@
 import '../index.css'
 import React from 'react';
 import type { Atracao } from '../types';
-import idsData from '../data/imdb.json';
 import imdbLogo from '../assets/IMDB_Logo.png';
 import atracoes from '../data/atracao.json';
-import { buscaAtracoesOmdbApi } from '../services/buscaOmdbApi';
 import noPoster from '../assets/no_poster.png'
 import Navbar from '../components/Navbar';
 
 function Home() {
   const [atracao, setAtracao] = React.useState<Atracao | null>(null);
   const [carregando, setCarregando] = React.useState<boolean>(true);
-  const topAtracoes:Atracao[]=  atracoes.filter((atracao) => atracao.rating_th! >= 9) ;
+  const topAtracoes:Atracao[] =  atracoes.filter((atracao) => atracao.rating_th! >= 9) ;
+  const filmes: Atracao[] = atracoes.filter((atracao) => atracao.type === 'Movie')
+  const qtdFilmes:number = filmes.length;
+  const qtdSeries:number = atracoes.filter((atracao) => atracao.type === 'TV Series' || atracao.type === 'TV Mini Series').length;
+  const RuntimeTotal = (): string => {
+    if (!atracao || !atracao.runtime) {
+      return '';
+    }
+    const horas = Math.floor(atracao.runtime / 60);
+    const minutos = atracao.runtime % 60;
+    return (`${horas}h ${minutos}m`);
+  }
 
   React.useEffect(() => {
     const carregaSugestao = async () => {
@@ -38,7 +47,12 @@ function Home() {
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
         </div>
-        <Navbar />
+        <Navbar selected='home' />
+        <div className="quantidade-container">
+          <span className="quantidades neon">Filmes:{qtdFilmes}</span>
+          <span className="quantidades neon">Tempo: {RuntimeTotal()} </span>
+          <span className="quantidades neon">Séries:{qtdSeries}</span>
+        </div>
       </div>
 
       <div className="sugestao-container">

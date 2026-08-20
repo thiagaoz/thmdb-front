@@ -13,7 +13,7 @@ function Assistindo () {
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
         </div>
-        <Navbar />
+        <Navbar selected='assistindo'/>
       </div>
 
       <main className="main-content">
