@@ -5,22 +5,45 @@ import imdbLogo from '../assets/IMDB_Logo.png';
 import atracoes from '../data/atracao.json';
 import noPoster from '../assets/no_poster.png'
 import Navbar from '../components/Navbar';
+import NavbarMobile from '../components/NavbarMobile';
 
 function Home() {
+
+
   const [atracao, setAtracao] = React.useState<Atracao | null>(null);
   const [carregando, setCarregando] = React.useState<boolean>(true);
   const topAtracoes:Atracao[] =  atracoes.filter((atracao) => atracao.rating_th! >= 9) ;
+
+  const [isMobile, setIsMobile] = React.useState<boolean>(
+    () => window.matchMedia('(max-width: 768px)').matches,
+  );
+
+  React.useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    const handleResize = () => {
+      setIsMobile(mediaQuery.matches);
+    };
+
+    handleResize();
+    mediaQuery.addEventListener('change', handleResize);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleResize);
+    };
+  }, []);
+  
+  /*
   const filmes: Atracao[] = atracoes.filter((atracao) => atracao.type === 'Movie')
-  const qtdFilmes:number = filmes.length;
-  const qtdSeries:number = atracoes.filter((atracao) => atracao.type === 'TV Series' || atracao.type === 'TV Mini Series').length;
+  
   const RuntimeTotal = (): string => {
-    if (!atracao || !atracao.runtime) {
-      return '';
-    }
-    const horas = Math.floor(atracao.runtime / 60);
-    const minutos = atracao.runtime % 60;
-    return (`${horas}h ${minutos}m`);
+    const totalRuntime = filmes.reduce((acc, curr) => acc + (curr.runtime || 0), 0);
+    const dias = Math.floor(totalRuntime / (60 * 24));
+    const horas = Math.floor((totalRuntime % (60 * 24)) / 60);
+    const minutos = totalRuntime % 60;
+    return (`${dias} dias ${horas} horas ${minutos} minutos`);
   }
+    */
+
 
   React.useEffect(() => {
     const carregaSugestao = async () => {
@@ -47,28 +70,26 @@ function Home() {
         <div className='titulo-principal'>
           <h1 className='nome neon'>Thiago's Movie Database</h1>
         </div>
-        <Navbar selected='home' />
+        {isMobile ? <NavbarMobile selected='home' /> : <Navbar selected='home' />}
+        
+         {/*
         <div className="quantidade-container">
-          <span className="quantidades neon">Filmes:{qtdFilmes}</span>
-          <span className="quantidades neon">Tempo: {RuntimeTotal()} </span>
-          <span className="quantidades neon">Séries:{qtdSeries}</span>
+          <div>
+            <span className="quantidades neon">Filmes:</span>
+            <span>{qtdFilmes}</span>
+          </div>
+           
+          <div>
+            <span className="quantidades neon">Tempo:</span>
+            <span>{RuntimeTotal()}</span>
+          </div>
+          
         </div>
+         */ }
       </div>
 
       <div className="sugestao-container">
       {carregando ? (
-        /* 
-        <>
-          <div className="poster-container">
-            <img className="neon-border poster-vazio" src={posterVazio} alt="Poster vazio" />
-          </div>
-          <div className="atracao-info-container">
-            <p> </p>
-            <h3 className="neon">Carregando...</h3>
-            <p className="plot"> </p>
-          </div>
-        </>
-        */ 
         <>
           <div className="poster-container">
             <h3 className="neon loading">Carregando...</h3>

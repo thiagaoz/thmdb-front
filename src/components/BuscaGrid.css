@@ -39,3 +39,21 @@
   border-color: var(--neon-vermelho-escuro, #8B0000);
   box-shadow: 0 0 4px rgba(139, 0, 0, 0.7);
 }
+
+.atracao-card.watchlist {
+  border-color: #d6a600;
+  box-shadow: 0 0 8px rgba(214, 166, 0, 0.5), 0 0 16px rgba(214, 166, 0, 0.3);
+}
+
+.atracao-card.watchlist h2 {
+  color: #ffd21f;
+}
+
+.atracao-card.watchlist img {
+  border-color: #d6a600;
+  box-shadow: 0 0 4px rgba(214, 166, 0, 0.7);
+}
+
+.atracao-card.visto {
+  border-color: var(--neon-suave, #00B4FF);
+}

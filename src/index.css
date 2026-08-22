@@ -3,6 +3,7 @@
 
 
 :root {
+  --font-size-base: 20px;
   
   --press-start: 'Press Start 2P', cursive;
   
@@ -15,7 +16,7 @@
   --glow: #00FFFF;
 
   font-family: var(--press-start);
-  font-size: 20px;
+  font-size: var(--font-size-base);
   color: white;
   letter-spacing: 0.18px;
 
@@ -36,10 +37,6 @@
   width: 100%;
   text-align: center;
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-
 }
 
 .header-container {
@@ -55,7 +52,7 @@
 .titulo-principal {
   text-align: center;
   margin: 0 auto;
-  width: fit-content;
+  width: 96%;
 }
 
 .navbar {
@@ -66,13 +63,13 @@
 }
 
 .nome {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .sugestao {
   margin-top: 20px;
   padding: 10px;
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .link-button {
@@ -81,7 +78,7 @@
   text-align: center;    /* Centraliza o texto dentro do link */
   padding: 10px 0;
   font-family: var(--press-start);
-  font-size: 16px;
+  font-size: 0.8rem;
   text-decoration: none;  
   font-weight: bold;   
   
@@ -113,7 +110,7 @@
 .rating-btn {
     width: 150px;
     margin-top: 10px;
-    font-size: 10px; /* Ajustado para melhor legibilidade */
+    font-size: 0.5rem; /* Ajustado para melhor legibilidade */
 }
 
 .neon {
@@ -124,7 +121,7 @@
 }
 
 .loading{
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .conteudo-sugestao {
@@ -169,22 +166,25 @@
   width: 100%;
   max-width: 800px;
   min-height: 550px;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-left: 100px;
 }
 
 .quantidade-container {
+  /*
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  gap: 20px; /* Espaçamento entre os elementos */
-    margin-top: 100px;
+  gap: 20px;  
+  */
+  margin-top: 50px;
 }
 
 .quantidades{
-  font-size: 25px;
+  font-size: 1.25rem;
   margin-right: 30px;
+  
 }
 
 .poster-container {
@@ -211,7 +211,7 @@
 }
 
 .font-pqna{
-  font-size: 16px;
+  font-size: 0.8rem;
 }
 
 .mini-logo{
@@ -228,7 +228,7 @@
   position: relative;
   top: -5px; 
 
-  font-size: 16px;
+  font-size: 0.8rem;
   height: 30px;
   width: 800px;
   font-family: var(--press-start);
@@ -261,4 +261,44 @@
   box-shadow:
     0 0 12px rgba(255, 0, 0, 0.7),
     0 0 24px rgba(204, 0, 0, 0.5);
+}
+
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-base: 16px; /* Reduz o tamanho da fonte para telas menores */
+  }
+
+  .nome {
+  font-size: 0.9rem;
+  }
+
+  .link-button {
+    width: 140px; /* Reduz a largura dos botões */
+    font-size: 0.7rem; /* Reduz o tamanho da fonte */
+  }
+
+  .sugestao-container {
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center;    /* Centraliza horizontalmente */
+    margin-left: 0;         /* Remove a margem esquerda */
+    margin-top: 100px;    /* Ajusta a margem superior */
+  }
+  .conteudo-sugestao {
+    min-height: 400px; /* Reduz a altura mínima */
+    width: 90%; /* Ajusta a largura para caber na tela */
+  }
+  .atracao-info-container {
+    width: 90%; /* Ocupa toda a largura disponível */
+    margin-left: 0; /* Remove a margem esquerda */
+    text-align: center; /* Centraliza o texto */
+  }
+  .poster, .poster-vazio {
+    width: 150px; /* Reduz a largura do poster */
+  }
+  .plot {
+    margin-top: 20px; /* Reduz a margem superior */
+    line-height: 1.2; /* Ajusta o espaçamento entre linhas */
+    text-align:left;
+  }
 }

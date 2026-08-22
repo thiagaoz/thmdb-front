@@ -10,6 +10,7 @@ const Navbar: React.FC<NavbarProps> = ({ selected }) => {
             <Link to="/filmes" className={selected === 'filmes' ? 'link-button selected' : 'link-button'}>Filmes</Link>
             <Link to="/seriados" className={selected === 'seriados' ? 'link-button selected' : 'link-button'}>Seriados</Link>
             <Link to="/assistindo" className={selected === 'assistindo' ? 'link-button selected' : 'link-button'}>Assistindo</Link>
+            <Link to="/na-lista" className={selected === 'na-lista' ? 'link-button selected' : 'link-button'}>Na Lista</Link>
             <Link to="/busca" className={selected === 'busca' ? 'link-button selected' : 'link-button'}>Buscar</Link>
         </div>
     </>

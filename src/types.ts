@@ -13,7 +13,8 @@ export type Atracao = {
   url?: string;
   poster?: string | null; // URL do poster
   year?: string | null;
-  runtime?: number;
+  runtime?: number | null;
+  statusBusca?: 'visto' | 'nao-visto' | 'watchlist';
   
   // Atualizado para aceitar null
   seasons?: number | null; 

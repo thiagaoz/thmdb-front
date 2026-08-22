@@ -6,9 +6,10 @@ import noPoster from '../assets/no_poster.png'
 
 type Props = {
   atracoes: Atracao[];
+  mostrarStatus?: boolean;
 };
 
-const BuscaGrid: React.FC<Props> = ({ atracoes }) => {
+const BuscaGrid: React.FC<Props> = ({ atracoes, mostrarStatus = true }) => {
 
   const ratingEstrelas = (nota: number): string => {
     let estrelas = Math.round(nota / 2); // Arredonda para uma casa decimal
@@ -19,7 +20,7 @@ const BuscaGrid: React.FC<Props> = ({ atracoes }) => {
   return (
     <div className="atracoes-grid">
       {atracoes.map((atracao) => (
-        <article key={atracao.id} className= {atracao.rating_th ? 'atracao-card' : 'atracao-card nao-visto'}>
+        <article key={atracao.id} className={`atracao-card ${atracao.statusBusca || (atracao.rating_th != null ? 'visto' : 'nao-visto')}`}>
           <h2>{atracao.title}</h2>
           <img
             src={atracao.poster || noPoster}
@@ -30,7 +31,13 @@ const BuscaGrid: React.FC<Props> = ({ atracoes }) => {
               e.currentTarget.src = noPoster;
             }}
           />
-          <h2>{atracao.rating_th? ratingEstrelas(atracao.rating_th) : "Não Visto"}</h2>
+          {mostrarStatus && (
+            <h2>{atracao.statusBusca === 'watchlist'
+              ? 'Na lista'
+              : atracao.statusBusca === 'visto' || atracao.rating_th != null
+                ? ratingEstrelas(atracao.rating_th || 0)
+                : 'Não Visto'}</h2>
+          )}
         </article>
       ))}
     </div>
